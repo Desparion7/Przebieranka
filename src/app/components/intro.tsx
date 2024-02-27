@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Intro = ({}) => {
 	return (
-		<section className='relative flex justify-center items-center w-[100vw] overflow-hidden'>
+		<section className='relative flex justify-center items-center w-[100vw]'>
 			<div>
 				<Image
 					src='/intro.png'

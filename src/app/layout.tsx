@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body className={`${poppins.className} relative overflow-hidden`}>
+			<body className={`${poppins.className} relative overflow-x-hidden`}>
 				<Header />
 				<main className='-z-1'>{children}</main>
 			</body>
