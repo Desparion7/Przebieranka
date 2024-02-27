@@ -1,0 +1,25 @@
+.text-outline-red:hover,
+.text-outline-red-active {
+	text-shadow: -0.5px -0.5px 0 #e94b28, 0.5px -0.5px 0 #e94b28,
+		-0.5px 0.5px 0 #e94b28, 0.5px 0.5px 0 #e94b28;
+}
+.text-outline-pink:hover,
+.text-outline-pink-active {
+	text-shadow: -0.5px -0.5px 0 #e24aea, 0.5px -0.5px 0 #e24aea,
+		-0.5px 0.5px 0 #e24aea, 0.5px 0.5px 0 #e24aea;
+}
+.text-outline-blue:hover,
+.text-outline-blue-active {
+	text-shadow: -0.5px -0.5px 0 #43ceed, 0.5px -0.5px 0 #43ceed,
+		-0.5px 0.5px 0 #43ceed, 0.5px 0.5px 0 #43ceed;
+}
+.text-outline-yellow:hover,
+.text-outline-yellow-active {
+	text-shadow: -0.5px -0.5px 0 #fef5a6, 0.5px -0.5px 0 #fef5a6,
+		-0.5px 0.5px 0 #fef5a6, 0.5px 0.5px 0 #fef5a6;
+}
+.text-outline-green:hover,
+.text-outline-green-active {
+	text-shadow: -0.5px -0.5px 0 #54e630, 0.5px -0.5px 0 #54e630,
+		-0.5px 0.5px 0 #54e630, 0.5px 0.5px 0 #54e630;
+}
