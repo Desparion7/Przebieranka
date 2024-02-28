@@ -51,7 +51,7 @@ const HowWeWork = () => {
 					className='absolute z-[-2] top-[-20px] right-0 w-[10rem] sm:w-[30rem]'
 				/>
 			</div>
-			<div className='flex flex-col xl:flex-row justify-center items-center lg:text-3xl 2xl:text-4xl text-center relative xl:top-[-3rem]'>
+			<div className='flex flex-col xl:flex-row justify-center items-center lg:text-3xl 2xl:text-4xl text-center relative xl:top-[-10rem]'>
 				<div className='order-2 xl:order-1'>
 					<p
 						className='bg-frame2-color p-3 lg:p-10 rounded-3xl border-8 border-frame2-border-color'
@@ -82,7 +82,7 @@ const HowWeWork = () => {
 					className='absolute z-[-2] right-[50%] w-[10rem] sm:w-[30rem]'
 				/>
 			</div>
-			<div className='flex flex-col xl:flex-row justify-center items-center lg:text-3xl 2xl:text-4xl text-center relative mt-5'>
+			<div className='flex flex-col xl:flex-row justify-center items-center lg:text-3xl 2xl:text-4xl text-center relative mt-5 xl:top-[-16rem]'>
 				<Image
 					src='/zdjecie4.jpg'
 					alt='Patrycja Żurek robiąca mydlane bańki dla dzieci'
@@ -112,7 +112,7 @@ const HowWeWork = () => {
 					className='absolute z-[-2] bottom-[-60px] right-0 w-[10rem] sm:w-[30rem]'
 				/>
 			</div>
-			<div className='flex flex-col xl:flex-row justify-center items-center lg:text-3xl 2xl:text-4xl text-center relative mt-5'>
+			<div className='flex flex-col xl:flex-row justify-center items-center lg:text-3xl 2xl:text-4xl text-center relative mt-5 xl:top-[-20rem]'>
 				<Image
 					src='/zdjecie2.png'
 					alt='Patrycja Szawara bawiąca się z dziecmi'
@@ -152,7 +152,7 @@ const HowWeWork = () => {
 			</div>
 			<div className='flex  justify-center items-center lg:text-3xl 2xl:text-4xl text-center relative my-5 w-[90%] xl:mt-0'>
 				<p
-					className='bg-frame1-color p-3 lg:px-10 rounded-3xl border-8 border-frame1-border-color relative '
+					className='bg-frame1-color p-3 lg:px-10 rounded-3xl border-8 border-frame1-border-color relative  xl:top-[-22rem]'
 					style={{
 						lineHeight: '1.5',
 					}}
@@ -160,7 +160,7 @@ const HowWeWork = () => {
 					Dla nas nie ma dzieci{' '}
 					<span className='font-semibold'>NIEMOŻLIWYCH</span> do{' '}
 					<span className='font-semibold'>ZA-Animowania</span> Są
-					tylko takie które nie dostały właściwego Programu.
+					tylko takie, które nie dostały właściwego Programu.
 				</p>
 			</div>
 		</section>
