@@ -15,7 +15,7 @@ const MeetUs = () => {
 				/>
 				<div className='absolute flex justify-center items-center w-[80%] sm:w-[50%] rotate-[5deg]'>
 					<p
-						className='text-sm sm:text-3xl xl:text-5xl p-10  text-center font-semibold'
+						className='text-sm sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl p-10  text-center font-semibold'
 						style={{
 							lineHeight: '1.5',
 						}}
