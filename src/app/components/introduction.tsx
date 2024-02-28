@@ -3,7 +3,7 @@ import React from 'react';
 
 const Introduction = () => {
 	return (
-		<section className='relative container mx-auto mt-16 pb-20 min-h-[65vh]'>
+		<section className='relative container mx-auto mt-16 pb-5 sm:pb-20'>
 			<Image
 				src='/kleks4.png'
 				alt='kleks'

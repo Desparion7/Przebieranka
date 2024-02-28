@@ -32,7 +32,7 @@ const Header = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.5 }}
 				>
-					<div className='overflow-hidden'>
+					<div >
 						<Link href='/'>
 							<motion.div
 								whileHover={{
@@ -41,7 +41,7 @@ const Header = () => {
 								}}
 								className='flex items-center ml-5 sm:ml-0'
 							>
-								<div className='w-[6rem]'>
+								<div className='w-[5rem] sm:w-[6rem]'>
 									<Image
 										src='/logo.png'
 										alt='logo'
@@ -67,7 +67,7 @@ const Header = () => {
 							width={100}
 							height={128}
 							priority
-							className='absolute top-[20px] sm:top-[10px] left-[-10px] sm:left-[-30px] z-[-1] w-[8rem] sm:w-[10rem]'
+							className='absolute top-[20px] sm:top-[10px] left-[-10px] sm:left-[-30px] z-[-1] w-[6rem] sm:w-[10rem]'
 						/>
 						<Image
 							src='/kleks1.png'
