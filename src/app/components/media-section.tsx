@@ -10,7 +10,7 @@ const MediaSection = () => {
 				<div className='w-[100%] lg:w-[50%]'>
 					<Image
 						src='/patrycje.png'
-						alt='kleks'
+						alt='Patrycja Szawara i Patrycja Żurek'
 						width={2006}
 						height={1313}
 						priority
