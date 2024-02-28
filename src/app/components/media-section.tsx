@@ -9,7 +9,7 @@ const MediaSection = () => {
 			<div className='flex flex-col lg:flex-row justify-center items-center relative top-[-5rem] sm:top-[-3rem]'>
 				<div className='w-[100%] lg:w-[50%]'>
 					<Image
-						src='/patrycje.png'
+						src='/media-img.png'
 						alt='Patrycja Szawara i Patrycja Żurek'
 						width={2158}
 						height={1314}
