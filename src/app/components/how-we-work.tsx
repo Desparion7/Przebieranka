@@ -21,7 +21,7 @@ const HowWeWork = () => {
 					className='p-2 custom:p-0'
 				/>
 			</div>
-			<div className='flex flex-col xl:flex-row justify-center items-center lg:text-3xl 2xl:text-5xl text-center relative top-[-1rem]'>
+			<div className='flex flex-col xl:flex-row justify-center items-center lg:text-3xl 2xl:text-4xl text-center relative top-[-1rem]'>
 				<Image
 					src='/zdjecie1.png'
 					alt='Patrycja Szawara zbierająca piłeczki'
@@ -51,7 +51,7 @@ const HowWeWork = () => {
 					className='absolute z-[-2] top-[-20px] right-0 w-[10rem] sm:w-[30rem]'
 				/>
 			</div>
-			<div className='flex flex-col xl:flex-row justify-center items-center lg:text-3xl 2xl:text-5xl text-center relative xl:top-[-3rem]'>
+			<div className='flex flex-col xl:flex-row justify-center items-center lg:text-3xl 2xl:text-4xl text-center relative xl:top-[-3rem]'>
 				<div className='order-2 xl:order-1'>
 					<p
 						className='bg-frame2-color p-3 lg:p-10 rounded-3xl border-8 border-frame2-border-color'
@@ -82,7 +82,7 @@ const HowWeWork = () => {
 					className='absolute z-[-2] right-[50%] w-[10rem] sm:w-[30rem]'
 				/>
 			</div>
-			<div className='flex flex-col xl:flex-row justify-center items-center lg:text-3xl 2xl:text-5xl text-center relative mt-5'>
+			<div className='flex flex-col xl:flex-row justify-center items-center lg:text-3xl 2xl:text-4xl text-center relative mt-5'>
 				<Image
 					src='/zdjecie4.jpg'
 					alt='Patrycja Żurek robiąca mydlane bańki dla dzieci'
@@ -112,7 +112,7 @@ const HowWeWork = () => {
 					className='absolute z-[-2] bottom-[-60px] right-0 w-[10rem] sm:w-[30rem]'
 				/>
 			</div>
-			<div className='flex flex-col xl:flex-row justify-center items-center lg:text-3xl 2xl:text-5xl text-center relative mt-5'>
+			<div className='flex flex-col xl:flex-row justify-center items-center lg:text-3xl 2xl:text-4xl text-center relative mt-5'>
 				<Image
 					src='/zdjecie2.png'
 					alt='Patrycja Szawara bawiąca się z dziecmi'
@@ -150,7 +150,7 @@ const HowWeWork = () => {
 					className='absolute z-[-2] bottom-[-20px] right-[20%] w-[10rem] sm:w-[30rem]'
 				/>
 			</div>
-			<div className='flex  justify-center items-center lg:text-3xl 2xl:text-5xl text-center relative mb-5 w-[90%]'>
+			<div className='flex  justify-center items-center lg:text-3xl 2xl:text-4xl text-center relative my-5 w-[90%] xl:mt-0'>
 				<p
 					className='bg-frame1-color p-3 lg:px-10 rounded-3xl border-8 border-frame1-border-color relative '
 					style={{
