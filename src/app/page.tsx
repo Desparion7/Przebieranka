@@ -1,4 +1,5 @@
 import AboutUs from './components/about-us';
+import HowWeWork from './components/how-we-work';
 import Intro from './components/intro';
 import Introduction from './components/introduction';
 import MediaSection from './components/media-section';
@@ -12,6 +13,7 @@ export default function Home() {
 			<AboutUs />
 			<MeetUs />
 			<MediaSection />
+			<HowWeWork />
 		</>
 	);
 }

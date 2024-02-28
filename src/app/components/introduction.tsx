@@ -14,7 +14,7 @@ const Introduction = () => {
 			/>
 			<Image
 				src='/kleks4.png'
-				alt='kleks'
+				alt=''
 				width={537}
 				height={465}
 				priority
@@ -22,7 +22,7 @@ const Introduction = () => {
 			/>
 			<Image
 				src='/kluczyk.png'
-				alt='klucz'
+				alt=''
 				width={703}
 				height={291}
 				priority
