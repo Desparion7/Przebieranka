@@ -5,7 +5,7 @@ const AboutUs = () => {
 	return (
 		<>
 			{/* Desktop Section */}
-			<section className='hidden lg:block relative container mx-auto pb-20 '>
+			<section className='hidden lg:block relative container mx-auto '>
 				<div className='flex justify-end '>
 					<Image
 						src='/tło1.png'
@@ -37,6 +37,14 @@ const AboutUs = () => {
 							</p>
 						</div>
 					</div>
+				</div>
+				<div className=' w-[100%] flex justify-center items-center'>
+					<Image
+						src='/telefony2.png'
+						alt='telefony'
+						width={668}
+						height={166}
+					/>
 				</div>
 				<div className='flex'>
 					<Image
@@ -72,14 +80,14 @@ const AboutUs = () => {
 				</div>
 			</section>
 			{/* Mobile section */}
-			<section className='relative lg:hidden container mx-auto pb-20 '>
+			<section className='relative lg:hidden container mx-auto '>
 				<div className='flex flex-col justify-center items-center'>
 					<Image
 						src='/Patrycja Szawara.png'
 						alt='Patrycja Szawara'
 						width={554}
 						height={522}
-						className='w-[50%]'
+						className='w-[60%]'
 					/>
 					<div className='relative top-[-3rem] z-[-2] flex justify-center items-center h-[16rem] w-full'>
 						<Image
@@ -105,13 +113,21 @@ const AboutUs = () => {
 						</div>
 					</div>
 				</div>
+				<div className='relative w-[100%] flex justify-center items-center top-[-3rem]'>
+					<Image
+						src='/telefony2.png'
+						alt='telefony'
+						width={668}
+						height={166}
+					/>
+				</div>
 				<div className='flex flex-col justify-center items-center relative top-[-3rem]'>
 					<Image
 						src='/Patrycja Żurek.png'
 						alt='Patrycja Żurek'
 						width={554}
 						height={522}
-						className='w-[50%]'
+						className='w-[60%]'
 					/>
 					<div className='relative top-[-3rem] z-[-2] flex justify-center items-center h-[16rem] w-full'>
 						<Image
