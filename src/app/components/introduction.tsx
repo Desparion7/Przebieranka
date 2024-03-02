@@ -42,7 +42,7 @@ const Introduction = () => {
 						className='z-[-1] w-[16rem] md:w-[18rem] lg:w-[32rem]'
 					/>
 				</div>
-				<h1 className='font-semibold text-center md:text-xl lg:text-3xl bg-third-color p-2 md:p-6 rounded-2xl mt-3'>
+				<h1 className='font-semibold text-center md:text-xl lg:text-3xl bg-third-color p-2 md:p-6 mx-2 rounded-2xl mt-3'>
 					Twój Klucz do Śmiechu i Niezapomnianej Zabawy!
 				</h1>
 			</div>

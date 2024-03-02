@@ -1,9 +1,11 @@
 import AboutUs from './components/about-us';
+import Atractions from './components/atractions';
 import HowWeWork from './components/how-we-work';
 import Intro from './components/intro';
 import Introduction from './components/introduction';
 import MediaSection from './components/media-section';
 import MeetUs from './components/meet-us';
+import Partners from './components/partners';
 
 export default function Home() {
 	return (
@@ -14,6 +16,8 @@ export default function Home() {
 			<MeetUs />
 			<MediaSection />
 			<HowWeWork />
+			<Atractions />
+			<Partners />
 		</>
 	);
 }

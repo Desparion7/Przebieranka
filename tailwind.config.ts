@@ -28,6 +28,7 @@ const config: Config = {
 				'frame4-border-color': 'var(--frame4-border-color)',
 				'frame5-color': 'var(--frame5-color)',
 				'frame5-border-color': 'var(--frame5-border-color)',
+				'button-color': 'var(--button-color)',
 			},
 			screens: {
 				custom: '321px',

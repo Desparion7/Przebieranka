@@ -32,14 +32,13 @@ const HowWeWork = () => {
 				/>
 				<div>
 					<p
-						className='bg-frame1-color p-3 lg:p-10 rounded-3xl border-8 border-frame1-border-color'
+						className='bg-frame1-color mx-2 p-3 lg:p-10 rounded-3xl border-8 border-frame1-border-color'
 						style={{
 							lineHeight: '1.5',
 						}}
 					>
-						U nas nie ma zwyczajnej Zabawy dla nas liczy się
-						ENERGIA, Śmiech, oraz tworzenie{' '}
-						<span className='font-semibold'>WYZWAŃ!</span>
+						U nas nie ma zwyczajnej zabawy dla nas liczy się
+						energia, śmiech, oraz tworzenie wyzwań!
 					</p>
 				</div>
 				<Image
@@ -54,13 +53,13 @@ const HowWeWork = () => {
 			<div className='flex flex-col xl:flex-row justify-center items-center lg:text-3xl 2xl:text-4xl text-center relative xl:top-[-10rem]'>
 				<div className='order-2 xl:order-1'>
 					<p
-						className='bg-frame2-color p-3 lg:p-10 rounded-3xl border-8 border-frame2-border-color'
+						className='bg-frame2-color mx-2 p-3 lg:p-10 rounded-3xl border-8 border-frame2-border-color'
 						style={{
 							lineHeight: '1.5',
 						}}
 					>
-						Z nami <span className='font-semibold'>Dzieci</span> się
-						zmęczą i ubrudzą! popłaczą ze śmiechu...
+						Z nami dzieci się zmęczą i ubrudzą! popłaczą ze
+						śmiechu...
 					</p>
 				</div>
 				<div className='order-1 xl:order-2'>
@@ -93,14 +92,13 @@ const HowWeWork = () => {
 				/>
 				<div>
 					<p
-						className='bg-frame3-color p-3 lg:p-10 rounded-3xl border-8 border-frame3-border-color'
+						className='bg-frame3-color mx-2 p-3 lg:p-10 rounded-3xl border-8 border-frame3-border-color'
 						style={{
 							lineHeight: '1.5',
 						}}
 					>
-						Nie zmuszamy nikogo do zabawy bo samym patrzeniem Każdy
-						się{' '}
-						<span className='font-semibold'>Zabawi i Uśmieje.</span>
+						Nie zmuszamy nikogo do zabawy bo samym patrzeniem każdy
+						się zabawi i uśmieje.
 					</p>
 				</div>
 				<Image
@@ -123,7 +121,7 @@ const HowWeWork = () => {
 				/>
 				<div className='flex flex-col gap-4'>
 					<p
-						className='bg-frame4-color p-3 lg:px-10 rounded-3xl border-8 border-frame4-border-color relative xl:left-[-50px] z-[-1]'
+						className='bg-frame4-color mx-2 p-3 lg:px-10 rounded-3xl border-8 border-frame4-border-color relative xl:left-[-50px] z-[-1]'
 						style={{
 							lineHeight: '1.5',
 						}}
@@ -132,13 +130,13 @@ const HowWeWork = () => {
 						swoim czasie!
 					</p>
 					<p
-						className='bg-frame5-color p-3 lg:p-10 rounded-3xl border-8 border-frame5-border-color'
+						className='bg-frame5-color mx-2 p-3 lg:p-10 rounded-3xl border-8 border-frame5-border-color'
 						style={{
 							lineHeight: '1.5',
 						}}
 					>
-						Każda Grupa jest inna więc z każdą tworzymy zupełnie
-						inną <span className='font-semibold'>Przygodę.</span>
+						Każda grupa jest inna więc z każdą tworzymy zupełnie
+						inną przygodę.
 					</p>
 				</div>
 				<Image
@@ -157,10 +155,8 @@ const HowWeWork = () => {
 						lineHeight: '1.5',
 					}}
 				>
-					Dla nas nie ma dzieci{' '}
-					<span className='font-semibold'>NIEMOŻLIWYCH</span> do{' '}
-					<span className='font-semibold'>ZA-Animowania</span> Są
-					tylko takie, które nie dostały właściwego Programu.
+					Dla nas nie ma dzieci niemożliwych do za-animowania. Są tylko
+					takie, które nie dostały właściwego programu.
 				</p>
 			</div>
 		</section>
