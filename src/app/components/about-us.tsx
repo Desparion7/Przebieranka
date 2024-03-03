@@ -92,7 +92,7 @@ const AboutUs = () => {
 					<div className='relative top-[-3rem] z-[-2] flex justify-center items-center h-[16rem] w-full'>
 						<Image
 							src='/tło1.png'
-							alt='tło różowe'
+							alt=''
 							width={802}
 							height={311}
 							priority
@@ -132,7 +132,7 @@ const AboutUs = () => {
 					<div className='relative top-[-3rem] z-[-2] flex justify-center items-center h-[16rem] w-full'>
 						<Image
 							src='/tło2.png'
-							alt='tło seledynowe'
+							alt=''
 							width={802}
 							height={311}
 							priority

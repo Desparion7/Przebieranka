@@ -3,7 +3,7 @@ import React from 'react';
 
 const Atractions = () => {
 	return (
-		<section className='relative xl:top-[-10rem]'>
+		<section className='relative xl:top-[-10rem] mb-5'>
 			<div className='sm:container sm:mx-auto flex flex-col justify-center items-center '>
 				<Image
 					src='/kleks4.png'
@@ -11,7 +11,7 @@ const Atractions = () => {
 					width={537}
 					height={465}
 					priority
-					className='absolute z-[-2] top-[0] w-[8rem]  sm:w-[10rem] xl:w-[16rem]'
+					className='absolute z-[-3] top-[0] w-[8rem]  sm:w-[10rem] xl:w-[16rem]'
 				/>
 				<Image
 					src='/kleks1.png'
@@ -19,7 +19,7 @@ const Atractions = () => {
 					width={537}
 					height={465}
 					priority
-					className='absolute z-[-2] top-[0] right-0 w-[8rem]  sm:w-[10rem] xl:w-[16rem]'
+					className='absolute z-[-3] top-[0] right-0 w-[8rem]  sm:w-[10rem] xl:w-[16rem]'
 				/>
 				<Image
 					src='/kleks3.png'
@@ -27,7 +27,7 @@ const Atractions = () => {
 					width={537}
 					height={465}
 					priority
-					className='absolute z-[-2] top-[0] left-0 w-[8rem]  sm:w-[10rem] xl:w-[16rem]'
+					className='absolute z-[-3] top-[0] left-0 w-[8rem]  sm:w-[10rem] xl:w-[16rem]'
 				/>
 				<div className='flex justify-center items-center '>
 					<h2
@@ -39,56 +39,116 @@ const Atractions = () => {
 						Najbardziej lubiane atrakcje:
 					</h2>
 				</div>
-				<div className='my-10 lg:mx-auto max-w-screen-xl px-2 lg:px-4 '>
-					<div className='grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8 justify-center'>
-						<Image
-							src='/atrakcja1.png'
-							alt=''
-							width={486}
-							height={461}
-							priority
-							className='z-[-2] w-[10rem] sm:w-[25rem]'
-						/>
-						<Image
-							src='/atrakcja2.png'
-							alt=''
-							width={475}
-							height={458}
-							priority
-							className='z-[-2] w-[10rem] sm:w-[25rem]'
-						/>
-						<Image
-							src='/atrakcja3.png'
-							alt=''
-							width={475}
-							height={458}
-							priority
-							className='z-[-2] w-[10rem] sm:w-[25rem] '
-						/>
-						<Image
-							src='/atrakcja4.png'
-							alt=''
-							width={475}
-							height={458}
-							priority
-							className='z-[-2]  w-[10rem] sm:w-[25rem]'
-						/>
-						<Image
-							src='/atrakcja5.png'
-							alt=''
-							width={475}
-							height={458}
-							priority
-							className='z-[-2]  w-[10rem] sm:w-[25rem]'
-						/>
-						<Image
-							src='/atrakcja6.png'
-							alt=''
-							width={475}
-							height={458}
-							priority
-							className='z-[-2]  w-[10rem] sm:w-[25rem]'
-						/>
+				<div className='my-10 lg:mx-auto max-w-screen-xl px-2 lg:px-4'>
+					<div className='grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8'>
+						<div className='relative'>
+							<Image
+								src='/atrakcje/atrakcja1.png'
+								alt='malowanie twarzy dziecka'
+								width={486}
+								height={461}
+								priority
+								className='z-[-2] w-[10rem] sm:w-[25rem]'
+							/>
+							<Image
+								src='/atrakcje/kleks-atrakcja1.png'
+								alt=''
+								width={486}
+								height={461}
+								priority
+								className='absolute top-0 z-[-2] w-[10rem] sm:w-[25rem]'
+							/>
+						</div>
+						<div className='relative'>
+							<Image
+								src='/atrakcje/atrakcja2.png'
+								alt='maskotki'
+								width={486}
+								height={461}
+								priority
+								className='z-[-2] w-[10rem] sm:w-[25rem]'
+							/>
+							<Image
+								src='/atrakcje/kleks-atrakcja2.png'
+								alt=''
+								width={486}
+								height={461}
+								priority
+								className='absolute top-[-1rem] z-[-2] w-[10rem] sm:w-[25rem]'
+							/>
+						</div>
+						<div className='relative'>
+							<Image
+								src='/atrakcje/atrakcja3.png'
+								alt='wata cukrowa'
+								width={486}
+								height={461}
+								priority
+								className='z-[-2] w-[10rem] sm:w-[25rem]'
+							/>
+							<Image
+								src='/atrakcje/kleks-atrakcja3.png'
+								alt=''
+								width={486}
+								height={461}
+								priority
+								className='absolute top-[-2rem] z-[-2] w-[10rem] sm:w-[25rem]'
+							/>
+						</div>
+						<div className='relative'>
+							<Image
+								src='/atrakcje/atrakcja4.png'
+								alt='pinata'
+								width={486}
+								height={461}
+								priority
+								className='z-[-2] w-[10rem] sm:w-[25rem]'
+							/>
+							<Image
+								src='/atrakcje/kleks-atrakcja4.png'
+								alt=''
+								width={486}
+								height={461}
+								priority
+								className='absolute top-[-3rem] z-[-2] w-[10rem] sm:w-[25rem]'
+							/>
+						</div>
+						<div className='relative'>
+							<Image
+								src='/atrakcje/atrakcja5.png'
+								alt='balony'
+								width={486}
+								height={461}
+								priority
+								className='z-[-2] w-[10rem] sm:w-[25rem]'
+							/>
+							<Image
+								src='/atrakcje/kleks-atrakcja5.png'
+								alt=''
+								width={486}
+								height={461}
+								priority
+								className='absolute top-[-2rem] z-[-2] w-[10rem] sm:w-[25rem]'
+							/>
+						</div>
+						<div className='relative'>
+							<Image
+								src='/atrakcje/atrakcja6.png'
+								alt='bańki mydlane'
+								width={486}
+								height={461}
+								priority
+								className='z-[-2] w-[10rem] sm:w-[25rem]'
+							/>
+							<Image
+								src='/atrakcje/kleks-atrakcja6.png'
+								alt=''
+								width={486}
+								height={461}
+								priority
+								className='absolute top-[-4rem] z-[-2] w-[10rem] sm:w-[25rem]'
+							/>
+						</div>
 					</div>
 				</div>
 				<div className='w-full flex justify-center items-center mx-2 sm:mt-10'>
