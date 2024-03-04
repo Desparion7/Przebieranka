@@ -66,7 +66,7 @@ const Footer = () => {
 									document.getElementById('city-info');
 								element?.scrollIntoView({
 									behavior: 'smooth',
-									block: 'start',
+									block: 'center',
 									inline: 'nearest',
 								});
 							}}
@@ -115,7 +115,7 @@ const Footer = () => {
 										priority
 										className='absolute z-[-2] rotate-[-1deg]'
 									/>
-									<div className='pb-10'>
+									<div className='pb-12 text-center'>
 										<p>Koszt dojazdu do</p>
 										<p>{city.name}</p>
 										<p>{city.price}</p>
