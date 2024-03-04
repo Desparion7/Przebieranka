@@ -185,7 +185,7 @@ const Atractions = () => {
 						className='absolute z-[-3]  left-0 w-[6rem] sm:w-[10rem] xl:w-[16rem] rotate-45'
 					/>
 				</div>
-				<div className='mt-16 flex justify-center items-center'>
+				<div className='sm:container sm:relative mt-16 flex justify-center items-center'>
 					<Image
 						src='/tło4.png'
 						alt=''

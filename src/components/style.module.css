@@ -23,3 +23,14 @@
 	text-shadow: -0.5px -0.5px 0 #54e630, 0.5px -0.5px 0 #54e630,
 		-0.5px 0.5px 0 #54e630, 0.5px 0.5px 0 #54e630;
 }
+
+.footer-gradient {
+	background: rgb(135, 214, 244);
+	background: linear-gradient(
+		99deg,
+		rgba(135, 214, 244, 1) 5%,
+		rgba(247, 168, 233, 1) 38%,
+		rgba(247, 168, 233, 1) 60%,
+		rgba(247, 239, 168, 1) 96%
+	);
+}

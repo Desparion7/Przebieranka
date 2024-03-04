@@ -112,9 +112,9 @@ const Partners = () => {
 					width={972}
 					height={256}
 					priority
-					className='h-full sm:w-[80%] sm:h-[20rem] lg:h-[14rem] lg:w-[70%]'
+					className='h-full sm:w-[80%] sm:h-[20rem] lg:h-[14rem] lg:w-[90%]'
 				/>
-				<div className='absolute p-6 text-center h-full sm:w-[60%] text-sm sm:text-3xl'>
+				<div className='absolute p-6 text-center h-full sm:w-[60%] lg:w-[50%] text-sm sm:text-3xl'>
 					<p
 						className='h-full flex justify-center items-center'
 						style={{
@@ -133,7 +133,7 @@ const Partners = () => {
 					width={972}
 					height={256}
 					priority
-					className='h-full sm:w-[80%] sm:h-[14rem]'
+					className='h-[8rem] sm:w-[80%] sm:h-[14rem]'
 				/>
 				<div className='absolute p-6 text-center h-full sm:w-[70%] text-sm sm:text-3xl'>
 					<p
