@@ -3,6 +3,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from './style.module.css';
 import { cities } from '@/lib/cities';
+import { motion } from 'framer-motion';
 
 type cityType = {
 	name: string;
@@ -100,7 +101,12 @@ const Footer = () => {
 							)}
 							{/* Desktop  */}
 							{selectedCity.name === city.name && (
-								<div className='hidden sm:flex absolute text-black p-4 m-2 top-[-13rem] left-[-6rem] w-[18rem] z-[2] justify-center items-center '>
+								<motion.div
+									className='hidden sm:flex absolute text-black p-4 m-2 top-[-13rem] left-[-6rem] w-[18rem] z-[2] justify-center items-center'
+									initial={{ scale: 0 }}
+									animate={{ scale: 1 }}
+									transition={{ duration: 0.2 }}
+								>
 									<Image
 										src='/chmurka.png'
 										alt=''
@@ -114,7 +120,7 @@ const Footer = () => {
 										<p>{city.name}</p>
 										<p>{city.price}</p>
 									</div>
-								</div>
+								</motion.div>
 							)}
 						</div>
 					))}
@@ -122,10 +128,15 @@ const Footer = () => {
 			</div>
 			<div className='w-full h-[5px] bg-white'></div>
 			<div
-				className={`text-center mx-auto p-4 ${styles['footer-gradient']} py-5 flex flex-col justify-center`}
+				className={`text-center mx-auto p-4 ${styles['footer-gradient']} py-5 flex flex-col sm:flex-row  sm:gap-2 justify-center`}
 			>
 				Strona wykonana przez{' '}
-				<a href='' className='text-blue-600'>
+				<a
+					href='https://modezp.com/'
+					target='_blank'
+					rel='noopener noreferrer'
+					className='text-blue-600 hover:text-blue-900'
+				>
 					modezp.com
 				</a>
 			</div>
