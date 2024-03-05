@@ -85,9 +85,6 @@ const Partners = () => {
 				/>
 			</div>
 			<div className='sm:container sm:mx-auto mt-10 flex justify-center items-center gap-10 '>
-				<p className=' sm:text-3xl text-center'>
-					Dział przyjaciół będzie rozszeżony na czasie!
-				</p>
 				<Image
 					src='/kleks4.png'
 					alt=''
