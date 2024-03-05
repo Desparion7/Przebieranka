@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Atractions = () => {
@@ -195,9 +196,11 @@ const Atractions = () => {
 						className='absolute w-full min-h-[130px]'
 					/>
 					<div className='relative'>
-						<button className='sm:text-xl lg:text-3xl 2xl:text-4xl bg-button-color px-4 py-2 xl:px-10 xl:py-5 rounded-3xl uppercase shadow-lg cursor-pointer hover:scale-105 z-[10] transition-all duration-300 '>
-							Atrakcje
-						</button>
+						<Link href='/atrakcje'>
+							<button className='sm:text-xl lg:text-3xl 2xl:text-4xl bg-button-color px-4 py-2 xl:px-10 xl:py-5 rounded-3xl uppercase shadow-lg cursor-pointer hover:scale-105 z-[10] transition-all duration-300 border-2 border-black'>
+								Atrakcje
+							</button>
+						</Link>
 						<Image
 							src='/kursor.png'
 							alt=''

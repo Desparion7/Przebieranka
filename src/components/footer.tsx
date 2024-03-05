@@ -74,8 +74,7 @@ const Footer = () => {
 						>
 							{selectedCity.name === city.name ? (
 								<>
-									<a
-										href='city-info'
+									<div
 										className='hidden sm:block text-white'
 										onMouseLeave={() => {
 											handleCityClick({
@@ -85,7 +84,7 @@ const Footer = () => {
 										}}
 									>
 										{city.name},
-									</a>
+									</div>
 									<p className='text-white sm:hidden'>
 										{city.name},
 									</p>

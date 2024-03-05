@@ -18,3 +18,187 @@
 	--frame5-border-color: #fd87be;
 	--button-color: #64dfa5;
 }
+
+.attraction1bg {
+	background: radial-gradient(
+		circle,
+		rgba(121, 239, 237, 1) 16%,
+		rgba(246, 246, 246, 0.3) 78%
+	);
+	box-shadow: 0px 4px 8px rgba(121, 239, 237, 0.5);
+}
+.attraction2bg {
+	background: radial-gradient(
+		circle,
+		rgba(149, 255, 146, 1) 16%,
+		rgba(246, 246, 246, 0.3) 78%
+	);
+	box-shadow: 0px 4px 8px rgba(149, 255, 146, 0.5);
+}
+.attraction3bg {
+	background: radial-gradient(
+		circle,
+		rgba(249, 187, 213, 1) 20%,
+		rgba(246, 246, 246, 0.3) 78%
+	);
+	box-shadow: 0px 4px 8px rgba(249, 187, 213, 0.5);
+}
+.attraction4bg {
+	background: radial-gradient(
+		circle,
+		rgba(234, 170, 255, 1) 16%,
+		rgba(246, 246, 246, 0.3) 78%
+	);
+	box-shadow: 0px 4px 8px rgba(234, 170, 255, 0.5);
+}
+.attraction5bg {
+	background: radial-gradient(
+		circle,
+		rgb(255, 255, 99) 16%,
+		rgba(246, 246, 246, 0.3) 78%
+	);
+	box-shadow: 0px 4px 8px rgba(255, 255, 99, 0.5);
+	border-bottom: 1px solid rgb(255, 255, 99);
+}
+.attraction6bg {
+	background: radial-gradient(
+		circle,
+		rgba(102, 224, 165, 1) 16%,
+		rgba(246, 246, 246, 0.3) 78%
+	);
+	box-shadow: 0px 4px 8px rgba(102, 224, 165, 0.5);
+}
+.attraction7bg {
+	background: radial-gradient(
+		circle,
+		rgba(163, 242, 234, 1) 46%,
+		rgba(246, 246, 246, 0.3) 78%
+	);
+	box-shadow: 0px 4px 8px rgba(163, 242, 234, 0.5);
+}
+.attraction8bg {
+	background: radial-gradient(
+		circle,
+		rgba(217, 217, 217, 1) 46%,
+		rgba(246, 246, 246, 0.3) 78%
+	);
+	box-shadow: 0px 4px 8px rgba(217, 217, 217, 0.5);
+	border-bottom: 1px solid rgba(217, 217, 217, 1);
+}
+.attraction9bg {
+	background: radial-gradient(
+		circle,
+		rgba(254, 183, 94, 1) 46%,
+		rgba(246, 246, 246, 0.3) 78%
+	);
+	box-shadow: 0px 4px 8px rgba(254, 183, 94, 0.5);
+}
+.attraction10bg {
+	background: radial-gradient(
+		circle,
+		rgba(255, 192, 203, 1) 46%,
+		rgba(246, 246, 246, 0.3) 78%
+	);
+	box-shadow: 0px 4px 8px rgba(255, 192, 203, 0.5);
+}
+.attraction11bg {
+	background: radial-gradient(
+		circle,
+		rgba(243, 243, 144, 1) 46%,
+		rgba(246, 246, 246, 0.3) 78%
+	);
+	box-shadow: 0px 4px 8px rgba(243, 243, 144, 0.5);
+	border-bottom: 1px solid rgba(243, 243, 144, 1);
+}
+.attraction12bg {
+	background: radial-gradient(
+		circle,
+		rgba(222, 134, 247, 1) 46%,
+		rgba(246, 246, 246, 0.3) 75%
+	);
+	box-shadow: 0px 4px 8px rgba(222, 134, 247, 0.5);
+}
+.attraction13bg {
+	background: radial-gradient(
+		circle,
+		rgb(250, 221, 109) 46%,
+		rgba(246, 246, 246, 0.3) 75%
+	);
+	box-shadow: 0px 4px 8px rgba(250, 221, 109, 0.5);
+}
+.attraction14bg {
+	background: radial-gradient(
+		circle,
+		rgb(252, 133, 138) 36%,
+		rgba(246, 246, 246, 0.3) 75%
+	);
+	box-shadow: 0px 4px 8px rgba(252, 133, 138, 0.5);
+}
+.attraction15bg {
+	background: radial-gradient(
+		circle,
+		rgb(207, 237, 71) 46%,
+		rgba(246, 246, 246, 0.3) 75%
+	);
+	box-shadow: 0px 4px 8px rgba(207, 237, 71, 0.5);
+	border-bottom: 1px solid rgb(207, 237, 71);
+}
+
+.attraction1-modal-bg {
+	background: rgba(121, 239, 237, 1);
+}
+.attraction2-modal-bg {
+	background: rgba(149, 255, 146, 1);
+}
+
+.attraction3-modal-bg {
+	background: rgba(249, 187, 213, 1);
+}
+
+.attraction4-modal-bg {
+	background: rgba(234, 170, 255, 1);
+}
+
+.attraction5-modal-bg {
+	background: rgb(255, 255, 99);
+}
+
+.attraction6-modal-bg {
+	background: rgba(102, 224, 165, 1);
+}
+
+.attraction7-modal-bg {
+	background: rgba(163, 242, 234, 1);
+}
+
+.attraction8-modal-bg {
+	background: rgba(217, 217, 217, 1);
+}
+
+.attraction9-modal-bg {
+	background: rgba(254, 183, 94, 1);
+}
+
+.attraction10-modal-bg {
+	background: rgba(255, 192, 203, 1);
+}
+
+.attraction11-modal-bg {
+	background: rgba(243, 243, 144, 1);
+}
+
+.attraction12-modal-bg {
+	background: rgba(222, 134, 247, 1);
+}
+
+.attraction13-modal-bg {
+	background: rgb(250, 221, 109);
+}
+
+.attraction14-modal-bg {
+	background: rgb(252, 133, 138);
+}
+
+.attraction15-modal-bg {
+	background: rgb(207, 237, 71);
+}

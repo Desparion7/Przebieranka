@@ -40,7 +40,7 @@ const Partners = () => {
 					</h2>
 				</div>
 			</div>
-			<div className='sm:container sm:mx-auto mt-10 flex justify-center items-center gap-10 flex-wrap'>
+			<div className='sm:container sm:mx-auto mt-10 flex justify-center items-center gap-5 xl:gap-10 flex-wrap'>
 				<Image
 					src='/partnerzy/flypark.jpg'
 					alt='logo flypark'
@@ -66,7 +66,7 @@ const Partners = () => {
 					className=' z-[-2] top-[-2rem] left-0 w-[8rem] sm:w-[10rem] xl:w-[16rem]'
 				/>
 			</div>
-			<div className='sm:container sm:mx-auto mt-10 flex justify-center items-center gap-10 flex-wrap'>
+			<div className='sm:container sm:mx-auto lg:mt-10 flex justify-center items-center gap-10 flex-wrap'>
 				<Image
 					src='/partnerzy/warkoczykarnia.jpg'
 					alt='logo warkoczykarnia'
