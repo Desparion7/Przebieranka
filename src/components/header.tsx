@@ -32,7 +32,7 @@ const Header = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.5 }}
 				>
-					<div >
+					<div>
 						<Link href='/'>
 							<motion.div
 								whileHover={{
@@ -95,7 +95,9 @@ const Header = () => {
 										`lg:text-md ${style[color]} transition-colors`,
 										{
 											[`${style[colorActive]}`]:
-												currentUrl === url,
+												currentUrl === url ||
+												(url !== '/' &&
+													currentUrl.includes(url)),
 										}
 									)}
 								>

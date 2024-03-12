@@ -18,6 +18,11 @@ const config: Config = {
 				'main-color': 'var(--main-color)',
 				'second-color': 'var(--second-color)',
 				'third-color': 'var(--third-color)',
+				'fourth-color': 'var(--fourth-color)',
+
+				'button-color': 'var(--button-color)',
+				'button2-color': 'var(--button2-color)',
+
 				'frame1-color': 'var(--frame1-color)',
 				'frame1-border-color': 'var(--frame1-border-color)',
 				'frame2-color': 'var(--frame2-color)',
@@ -28,11 +33,12 @@ const config: Config = {
 				'frame4-border-color': 'var(--frame4-border-color)',
 				'frame5-color': 'var(--frame5-color)',
 				'frame5-border-color': 'var(--frame5-border-color)',
-				'button-color': 'var(--button-color)',
+
 				'atraction1-color': 'var(--atraction1-color)',
 			},
 			screens: {
 				custom: '321px',
+				custom450: '450px',
 			},
 		},
 	},

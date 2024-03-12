@@ -197,7 +197,7 @@ const Atractions = () => {
 					/>
 					<div className='relative'>
 						<Link href='/atrakcje'>
-							<button className='sm:text-xl lg:text-3xl 2xl:text-4xl bg-button-color px-4 py-2 xl:px-10 xl:py-5 rounded-3xl uppercase shadow-lg cursor-pointer hover:scale-105 z-[10] transition-all duration-300 border-2 border-black'>
+							<button className='lg:text-3xl bg-button-color px-6 py-3 lg:px-8 lg:py-4 rounded-3xl cursor-pointer hover:scale-105 z-[10] transition-all duration-300 border-2 border-black button-shadow'>
 								Atrakcje
 							</button>
 						</Link>

@@ -6,6 +6,11 @@
 	--main-color: #f7a8e9;
 	--second-color: #87d6f4;
 	--third-color: #fced60;
+	--fourth-color: #e65cb1;
+
+	--button-color: #64dfa5;
+	--button2-color: #fff2dc;
+
 	--frame1-color: #a3f2ea;
 	--frame1-border-color: #71eeeb;
 	--frame2-color: #e7bbf7;
@@ -16,7 +21,32 @@
 	--frame4-border-color: #fdb254;
 	--frame5-color: #f8bbd5;
 	--frame5-border-color: #fd87be;
-	--button-color: #64dfa5;
+}
+
+.stroke-text {
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+		2px 2px 0 #000;
+}
+
+.button-shadow {
+	-webkit-box-shadow: 10px 10px 9px -5px rgba(66, 68, 90, 1);
+	-moz-box-shadow: 10px 10px 9px -5px rgba(66, 68, 90, 1);
+	box-shadow: 10px 10px 9px -5px rgba(66, 68, 90, 1);
+}
+.gradient {
+	background: linear-gradient(
+		94deg,
+		rgba(247, 239, 168, 1) 21%,
+		rgba(247, 168, 233, 1) 63%
+	);
+}
+.gradientPopup {
+	background: rgb(255, 168, 104);
+	background: linear-gradient(
+		141deg,
+		rgba(240, 64, 161, 1) 12%,
+		rgba(143, 43, 130, 1) 48%
+	);
 }
 
 .attraction1bg {

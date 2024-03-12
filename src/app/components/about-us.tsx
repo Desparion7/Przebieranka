@@ -9,7 +9,7 @@ const AboutUs = () => {
 				<div className='flex justify-end '>
 					<Image
 						src='/tło1.png'
-						alt='tło różowe'
+						alt=''
 						width={1766}
 						height={686}
 						priority
@@ -49,7 +49,7 @@ const AboutUs = () => {
 				<div className='flex'>
 					<Image
 						src='/tło2.png'
-						alt='tło seledynowe'
+						alt=''
 						width={1766}
 						height={686}
 						priority
