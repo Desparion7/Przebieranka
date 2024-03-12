@@ -104,12 +104,12 @@ const WeddingPage = () => {
 				>
 					<Image
 						src='/button1.png'
-						width={500}
-						height={252}
+						width={1034}
+						height={340}
 						alt='button'
 						className='w-[32rem]'
 					/>
-					<p className='absolute translate-y-[-0.4rem] xl:translate-y-[-0.6rem] text-center w-full uppercase text-white text-lg custom450:text-2xl sm:text-lg xl:text-3xl font-semibold'>
+					<p className='absolute translate-y-[-0.4rem] xl:translate-y-[-0.6rem] text-center w-full uppercase text-white text-md custom450:text-2xl sm:text-lg xl:text-3xl font-semibold'>
 						Pakiet solo - 3H 750zł{' '}
 					</p>
 				</button>
@@ -121,8 +121,8 @@ const WeddingPage = () => {
 				>
 					<Image
 						src='/button2.png'
-						width={500}
-						height={252}
+						width={1035}
+						height={340}
 						alt='button'
 						className='w-[32rem]'
 					/>
@@ -269,7 +269,7 @@ const WeddingPage = () => {
 						alt='button'
 						className='w-[32rem]'
 					/>
-					<p className='absolute translate-y-[-0.5rem] xl:translate-y-[-0.6rem] text-center w-full uppercase text-white text-lg custom450:text-2xl sm:text-lg xl:text-3xl font-semibold mx-4 leading-5'>
+					<p className='absolute translate-y-[-0.5rem] xl:translate-y-[-0.6rem] text-center w-full uppercase text-white text-md custom450:text-2xl sm:text-lg xl:text-3xl font-semibold mx-4 leading-5'>
 						Pakiet VIP to + 100zł do
 						<span className='block'>wybranego pakietu </span>
 					</p>
