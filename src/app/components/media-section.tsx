@@ -28,8 +28,8 @@ const MediaSection = () => {
 					<Image
 						src='/kleks1.png'
 						alt='ramka'
-						width={537}
-						height={465}
+						width={613}
+						height={566}
 						priority
 						className='absolute z-[-2] right-0 w-[10rem] sm:w-[24rem]'
 					/>

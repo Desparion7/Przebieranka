@@ -64,24 +64,24 @@ const Header = () => {
 						<Image
 							src='/kleks2.png'
 							alt='kleks'
-							width={100}
-							height={128}
+							width={498}
+							height={360}
 							priority
 							className='absolute top-[20px] sm:top-[10px] left-[-10px] sm:left-[-30px] z-[-1] w-[6rem] sm:w-[10rem]'
 						/>
 						<Image
 							src='/kleks1.png'
 							alt='kleks'
-							width={100}
-							height={128}
+							width={613}
+							height={566}
 							priority
 							className='absolute top-[-90px] sm:top-[-130px] right-[20%] sm:right-[50%] z-[-1] w-[10rem] sm:w-[14rem] rotate-120'
 						/>
 						<Image
 							src='/kleks3.png'
 							alt='kleks'
-							width={100}
-							height={128}
+							width={796}
+							height={676}
 							priority
 							className='absolute top-[-50px] sm:top-[-90px] right-0 sm:right-0 z-[-1] sm:w-[12rem] rotate-120'
 						/>

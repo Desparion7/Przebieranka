@@ -133,8 +133,8 @@ const WeddingPage = () => {
 				<Image
 					src='/kleks4.png'
 					alt=''
-					width={613}
-					height={566}
+					width={537}
+					height={465}
 					priority
 					className='absolute z-[-2] top-[-4rem]  w-[10rem] sm:w-[24rem]'
 				/>
@@ -190,8 +190,8 @@ const WeddingPage = () => {
 				<Image
 					src='/kleks1.png'
 					alt=''
-					width={266}
-					height={244}
+					width={613}
+					height={566}
 					priority
 					className='absolute z-[-4] top-[0.5rem] left-0 w-[5rem] sm:w-[10rem] xl:w-[16rem]'
 				/>

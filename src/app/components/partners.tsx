@@ -16,16 +16,16 @@ const Partners = () => {
 				<Image
 					src='/kleks1.png'
 					alt=''
-					width={537}
-					height={465}
+					width={613}
+					height={566}
 					priority
 					className='absolute z-[-2] top-[-1rem] right-0 w-[4rem] sm:w-[10rem] xl:w-[16rem]'
 				/>
 				<Image
 					src='/kleks3.png'
 					alt=''
-					width={537}
-					height={465}
+					width={796}
+					height={676}
 					priority
 					className='absolute z-[-2] top-[-2rem] left-0 w-[8rem] sm:w-[10rem] xl:w-[16rem]'
 				/>
@@ -146,16 +146,16 @@ const Partners = () => {
 				<Image
 					src='/kleks3.png'
 					alt=''
-					width={537}
-					height={465}
+					width={796}
+					height={676}
 					priority
 					className='absolute z-[-3] left-0 w-[2rem] sm:w-[10rem] xl:w-[16rem] rotate-45'
 				/>
 				<Image
 					src='/kleks3.png'
 					alt=''
-					width={537}
-					height={465}
+					width={796}
+					height={676}
 					priority
 					className='absolute z-[-3] right-0 w-[2rem] sm:w-[10rem] xl:w-[16rem]'
 				/>

@@ -17,16 +17,16 @@ const Atractions = () => {
 				<Image
 					src='/kleks1.png'
 					alt=''
-					width={537}
-					height={465}
+					width={613}
+					height={566}
 					priority
 					className='absolute z-[-3] top-[0] right-0 w-[8rem]  sm:w-[10rem] xl:w-[16rem]'
 				/>
 				<Image
 					src='/kleks3.png'
 					alt=''
-					width={537}
-					height={465}
+					width={796}
+					height={676}
 					priority
 					className='absolute z-[-3] top-[0] left-0 w-[8rem]  sm:w-[10rem] xl:w-[16rem]'
 				/>
@@ -172,8 +172,8 @@ const Atractions = () => {
 					<Image
 						src='/kleks3.png'
 						alt=''
-						width={537}
-						height={465}
+						width={796}
+						height={676}
 						priority
 						className=' absolute z-[-3]  w-[6rem] sm:w-[10rem] xl:w-[16rem]'
 					/>
