@@ -83,7 +83,7 @@ const Header = () => {
 							width={796}
 							height={676}
 							priority
-							className='absolute top-[-50px] sm:top-[-90px] right-0 sm:right-0 z-[-1] sm:w-[12rem] rotate-120'
+							className='absolute top-[-50px] sm:top-[-90px] right-0 sm:right-0 z-[-1] w-[8rem] sm:w-[12rem] rotate-120'
 						/>
 					</div>
 					<div className='hidden lg:flex items-end justify-end py-4 px-5'>
