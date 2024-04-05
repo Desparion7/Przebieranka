@@ -42,7 +42,7 @@ const WeddingPage = () => {
 				/>
 				<div aria-labelledby='image-meet-ours'>
 					<p id='image-meet-ours' className='sr-only'>
-						Poznaj nasze pakiety Weselne
+						Poznaj nasze pakiety weselne
 					</p>
 					<Image
 						src='/wesela1.png'
