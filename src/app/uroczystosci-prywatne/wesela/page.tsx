@@ -1,33 +1,33 @@
 'use client';
 import Image from 'next/image';
 import React, { useState } from 'react';
-import PackagePopup from './popup';
+import PackagePopup from '../popup';
 
 const WeddingPage = () => {
 	const [activePackage, setActivePackage] = useState<string | null>(null);
 	return (
 		<section className='relative xl:mb-5 overflow-hidden pb-10'>
-			<div className='flex flex-col xl:flex-row xl:gap-10 justify-center items-center xl:mt-10 lg:text-3xl 2xl:text-4xl text-center relative top-[-1rem]'>
+			<div className='flex flex-col xl:flex-row xl:gap-10 justify-center items-center mt-10 lg:text-3xl 2xl:text-4xl text-center relative top-[-1rem]'>
 				<Image
-					src='/zdjecie5.jpg'
+					src='/uroczystości prywatne/komunia.jpg'
 					alt='dziewczynki trzymające koszyki do sypania kwiatów na weselu'
 					width={1010}
 					height={706}
 					priority
 					className='p-2 custom:p-0 w-[16rem] sm:w-[32rem] xl:w-[40rem] rotate-[-2deg]'
 				/>
-				<div aria-labelledby='image-meet-ours'>
-					<p id='image-meet-ours' className='sr-only'>
-						Poznaj nasze pakiety Weselne
-					</p>
+				<div className='flex justify-center items-center'>
 					<Image
-						src='/wesela1.png'
+						src='/uroczystości prywatne/pakiety-tło.png'
 						alt='napis Poznaj nasze pakiety Weselne'
 						width={585}
 						height={384}
 						priority
-						className='z-[-1] w-[16rem] sm:w-[26rem] lg:w-[32rem]'
+						className='z-[-1] w-full sm:w-[26rem] lg:w-[32rem] my-5 lg:my-0'
 					/>
+					<div className='absolute flex justify-center w-[70%] lg:w-[330px] font-semibold'>
+						<p className='text-xl lg:text-3xl'>Poznaj Nasze Pakiety Weselne</p>
+					</div>
 				</div>
 				<Image
 					src='/kleks1.png'
@@ -40,20 +40,20 @@ const WeddingPage = () => {
 			</div>
 			<div className='flex justify-center items-center'>
 				<Image
-					src='/wesela2.png'
+					src='/uroczystości prywatne/ramka-uroczystości.png'
 					alt=''
 					width={1527}
 					height={761}
 					priority
-					className='hidden sm:block w-full h-[40rem] custom:h-[32rem] xl:w-[80%]'
+					className='hidden sm:block w-full h-[40rem] xl:h-[38rem] xl:w-[80%]'
 				/>
 				<Image
-					src='/wesela2-mobile.png'
+					src='/uroczystości prywatne/ramka-uroczystości-mobile.png'
 					alt=''
 					width={735}
 					height={1433}
 					priority
-					className='sm:hidden w-full h-[40rem] custom:h-[32rem] xl:w-[80%]'
+					className='sm:hidden w-full h-[34rem] custom:h-[26rem] xl:w-[80%]'
 				/>
 				<div className='absolute flex w-[100%] custom450:w-[85%] lg:w-[80%] xl:w-[60%]'>
 					<p
@@ -120,7 +120,7 @@ const WeddingPage = () => {
 					W Cenie Każdego PAKIETU są{' '}
 					<span>
 						<Image
-							src='/3.png'
+							src='/uroczystości prywatne/3.png'
 							width={204}
 							height={204}
 							alt='liczba 3'
@@ -131,7 +131,7 @@ const WeddingPage = () => {
 				</p>
 				<div className='flex flex-col xl:flex-row justify-center mt-10'>
 					<Image
-						src='/zestaw-atrakcji.jpg'
+						src='/uroczystości prywatne/zestaw-atrakcji.jpg'
 						alt=''
 						width={589}
 						height={154}
@@ -139,7 +139,7 @@ const WeddingPage = () => {
 						className='w-[40rem]'
 					/>
 					<Image
-						src='/zestaw-atrakcji2.jpg'
+						src='/uroczystości prywatne/zestaw-atrakcji2.jpg'
 						alt=''
 						width={589}
 						height={154}
@@ -151,7 +151,7 @@ const WeddingPage = () => {
 			<div className='relative mt-5 sm:mt-10 flex justify-center items-center'>
 				<div className='flex justify-center gap-2 items-center gradient p-2 sm:w-[80%] lg:w-[70%] xl:w-[50%] sm:rounded-2xl'>
 					<Image
-						src='/zegar.png'
+						src='/uroczystości prywatne/zegar.png'
 						alt=''
 						width={243}
 						height={233}
@@ -192,7 +192,7 @@ const WeddingPage = () => {
 				</p>
 				<div className='relative'>
 					<Image
-						src='/dziewczyny.png'
+						src='/uroczystości prywatne/dziewczyny.png'
 						alt=''
 						width={946}
 						height={730}
