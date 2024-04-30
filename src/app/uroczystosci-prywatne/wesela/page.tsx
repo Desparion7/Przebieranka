@@ -80,7 +80,7 @@ const WeddingPage = () => {
 				>
 					<Image
 						src='/button1.png'
-						width={1034}
+						width={1134}
 						height={340}
 						alt='button'
 						className='w-[32rem]'

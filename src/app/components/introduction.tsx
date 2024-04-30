@@ -6,7 +6,7 @@ const Introduction = () => {
 		<section className='relative container mx-auto mt-16 pb-5 sm:pb-20'>
 			<Image
 				src='/kleks4.png'
-				alt='kleks'
+				alt=''
 				width={537}
 				height={465}
 				priority
