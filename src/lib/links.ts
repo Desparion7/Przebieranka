@@ -7,7 +7,7 @@ export const links = [
 		colorActive: 'text-outline-red-active',
 	},
 	{
-		url: '/uroczystosci-prywatne',
+		url: '/uroczystosci-prywatne/wesela',
 		text: ['uroczystości', 'prywatne'],
 		color: 'text-outline-pink',
 		name: 'uroczystości prywatne',
