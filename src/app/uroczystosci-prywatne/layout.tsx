@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { ReactNode } from 'react';
+import React, { ReactNode, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utilis';
 
@@ -57,9 +57,13 @@ export default function PrivateCelebrationsLayout({
 		case 'wydarzenia-rodzinne':
 			title = 'Oferta animacji na wydarzenia rodzinne';
 			break;
+		case 'inne':
+			title = 'Oferta animacji na pozostałe wydarzenia';
+			break;
 		default:
 			title = 'Oferta animacji';
 	}
+
 	return (
 		<>
 			<section className='relative xl:mb-5 overflow-hidden pb-5'>

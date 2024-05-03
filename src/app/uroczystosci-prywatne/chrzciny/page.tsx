@@ -11,7 +11,7 @@ const ChristeningPage = () => {
 				<Image
 					src='/uroczystości prywatne/chrzciny.jpg'
 					alt='małe dziecko w wiklylowym korzykiem z wiankiem na głowie i bukietem w rękach'
-					width={942}
+					width={1000}
 					height={1000}
 					priority
 					className='p-2 custom:p-0 w-[16rem] sm:w-[32rem] xl:w-[36rem] rotate-[-2deg]'
@@ -19,7 +19,7 @@ const ChristeningPage = () => {
 				<div className='flex justify-center items-center'>
 					<Image
 						src='/uroczystości prywatne/pakiety-tło.png'
-						alt='napis Poznaj nasze pakiety Weselne'
+						alt=''
 						width={585}
 						height={384}
 						priority

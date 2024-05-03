@@ -46,7 +46,7 @@ const PackagePopup = ({
 						initial={{ scale: 0.8 }}
 						animate={{ scale: 1 }}
 						exit={{ scale: 0.8 }}
-						className={`p-5 xl:p-10 rounded-lg lg:w-2/4  m-4 relative gradientPopup text-white`}
+						className={`p-5 xl:p-10 rounded-lg lg:w-2/4  m-4 relative bg-white text-black border-2 border-pink-600`}
 						onClick={(e) => e.stopPropagation()}
 					>
 						<button

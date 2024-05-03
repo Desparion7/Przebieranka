@@ -3,16 +3,16 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import PackagePopup from '../popup';
 
-const CommunionPage = () => {
+const OthersPage = () => {
 	const [activePackage, setActivePackage] = useState<string | null>(null);
 	return (
 		<section className='relative xl:mb-5 overflow-hidden pb-10'>
 			<div className='flex flex-col xl:flex-row xl:gap-10 justify-center items-center xl:mt-10 lg:text-3xl 2xl:text-4xl text-center relative top-[-1rem]'>
 				<Image
-					src='/uroczystości prywatne/komunia.jpg'
-					alt='dwie dziewczynki w białych sukienkach komunijnych i bukietach w rękach'
-					width={1000}
-					height={1000}
+					src='/uroczystości prywatne/wydarzenie.jpg'
+					alt=''
+					width={980}
+					height={980}
 					priority
 					className='p-2 custom:p-0 w-[16rem] sm:w-[32rem] xl:w-[36rem] rotate-[-2deg]'
 				/>
@@ -27,7 +27,7 @@ const CommunionPage = () => {
 					/>
 					<div className='absolute flex justify-center w-[70%] lg:w-[330px] font-semibold'>
 						<p className='text-xl lg:text-3xl'>
-							Poznaj Nasze Pakiety na Komunie
+							Poznaj Nasze Pakiety Uniwersalne
 						</p>
 					</div>
 				</div>
@@ -64,7 +64,7 @@ const CommunionPage = () => {
 							lineHeight: '1.6',
 						}}
 					>
-						Opis dla komuni
+						Opis dla wydarzeń nie wyróżnionych
 					</p>
 				</div>
 			</div>
@@ -120,4 +120,4 @@ const CommunionPage = () => {
 	);
 };
 
-export default CommunionPage;
+export default OthersPage;

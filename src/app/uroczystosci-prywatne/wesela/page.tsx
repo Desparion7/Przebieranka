@@ -1,32 +1,34 @@
 'use client';
 import Image from 'next/image';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import PackagePopup from '../popup';
 
 const WeddingPage = () => {
 	const [activePackage, setActivePackage] = useState<string | null>(null);
 	return (
-		<section className='relative xl:mb-5 overflow-hidden pb-10'>
+		<section className='relative xl:mb-5 overflow-hidden pb-3'>
 			<div className='flex flex-col xl:flex-row xl:gap-10 justify-center items-center mt-10 lg:text-3xl 2xl:text-4xl text-center relative top-[-1rem]'>
 				<Image
-					src='/uroczystości prywatne/komunia.jpg'
+					src='/uroczystości prywatne/wesele.jpg'
 					alt='dziewczynki trzymające koszyki do sypania kwiatów na weselu'
-					width={1010}
-					height={706}
+					width={679}
+					height={679}
 					priority
-					className='p-2 custom:p-0 w-[16rem] sm:w-[32rem] xl:w-[40rem] rotate-[-2deg]'
+					className='p-2 custom:p-0 w-[16rem] sm:w-[32rem] xl:w-[36rem] rotate-[-2deg]'
 				/>
 				<div className='flex justify-center items-center'>
 					<Image
 						src='/uroczystości prywatne/pakiety-tło.png'
-						alt='napis Poznaj nasze pakiety Weselne'
+						alt=''
 						width={585}
 						height={384}
 						priority
-						className='z-[-1] w-full sm:w-[26rem] lg:w-[32rem] my-5 lg:my-0'
+						className='z-[-1] w-full sm:w-[26rem] lg:w-[32rem] mt-5 lg:my-0'
 					/>
 					<div className='absolute flex justify-center w-[70%] lg:w-[330px] font-semibold'>
-						<p className='text-xl lg:text-3xl'>Poznaj Nasze Pakiety Weselne</p>
+						<p className='text-xl lg:text-3xl'>
+							Poznaj Nasze Pakiety Weselne
+						</p>
 					</div>
 				</div>
 				<Image
@@ -71,7 +73,7 @@ const WeddingPage = () => {
 					</p>
 				</div>
 			</div>
-			<div className='sm:container relative mx-auto flex flex-col sm:flex-row justify-center items-center gap-10 my-8 lg:mt-16 p-2 mb-5'>
+			<div className='sm:container relative mx-auto flex flex-col sm:flex-row justify-center items-center gap-8 my-8 lg:mt-16 p-2 mb-5'>
 				<button
 					className='relative cursor-pointer hover:scale-105 transition-all duration-300  flex justify-center items-center'
 					onClick={() => {
@@ -114,6 +116,35 @@ const WeddingPage = () => {
 					priority
 					className='absolute z-[-2] top-[-4rem]  w-[10rem] sm:w-[24rem]'
 				/>
+			</div>
+			<div className='flex justify-center items-center flex-col'>
+				<p
+					className='text-center text-xl  lg:text-4xl font-semibold lg:w-[60%]'
+					style={{
+						lineHeight: '1.6',
+					}}
+				>
+					Jeśli Zależy Państwu Na Konkretnej Osobie Prosimy wybrać
+					Pakiet VIP.
+				</p>
+				<button
+					className='relative cursor-pointer hover:scale-105 transition-all duration-300  flex justify-center items-center'
+					onClick={() => {
+						setActivePackage('Pakiet VIP');
+					}}
+				>
+					<Image
+						src='/button3.png'
+						width={500}
+						height={252}
+						alt='button'
+						className='w-[32rem]'
+					/>
+					<p className='absolute translate-y-[-0.5rem] xl:translate-y-[-0.6rem] text-center w-full uppercase text-white text-md custom450:text-2xl sm:text-lg xl:text-3xl font-semibold mx-4 leading-5'>
+						Pakiet VIP to + 100zł do
+						<span className='block'>wybranego pakietu </span>
+					</p>
+				</button>
 			</div>
 			<div className='flex flex-col justify-center items-center mx-3'>
 				<p className='text-xl custom:2xl text-center font-semibold mb-3'>
@@ -187,7 +218,7 @@ const WeddingPage = () => {
 						lineHeight: '1.6',
 					}}
 				>
-					Na Animacje Weselne najczęściej Jeżdżą Nasze dziewczyny z
+					Na Animacje Weselne Jeżdżą Nasze dziewczyny z
 					Bogatym Doświadczeniem , Pasją i dziecięcym Humorem.
 				</p>
 				<div className='relative'>
@@ -223,33 +254,6 @@ const WeddingPage = () => {
 						className='absolute z-[-4] top-[1rem] right-0 w-[5rem] sm:w-[10rem] xl:w-[22rem]'
 					/>
 				</div>
-				<p
-					className='text-center text-xl  lg:text-4xl font-semibold lg:w-[60%]'
-					style={{
-						lineHeight: '1.6',
-					}}
-				>
-					Jeśli Zależy Państwu Na Konkretnej Osobie Prosimy wybrać
-					Pakiet VIP.
-				</p>
-				<button
-					className='relative cursor-pointer hover:scale-105 transition-all duration-300  flex justify-center items-center'
-					onClick={() => {
-						setActivePackage('Pakiet VIP');
-					}}
-				>
-					<Image
-						src='/button3.png'
-						width={500}
-						height={252}
-						alt='button'
-						className='w-[32rem]'
-					/>
-					<p className='absolute translate-y-[-0.5rem] xl:translate-y-[-0.6rem] text-center w-full uppercase text-white text-md custom450:text-2xl sm:text-lg xl:text-3xl font-semibold mx-4 leading-5'>
-						Pakiet VIP to + 100zł do
-						<span className='block'>wybranego pakietu </span>
-					</p>
-				</button>
 			</div>
 			<PackagePopup
 				setActivePackage={setActivePackage}
