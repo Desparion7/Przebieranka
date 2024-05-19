@@ -45,7 +45,21 @@
 	background: linear-gradient(
 		141deg,
 		rgba(240, 64, 161, 1) 12%,
-		rgba(143, 43, 130, 1) 48%
+		rgb(217, 58, 196) 48%
+	);
+}
+.private-events-button-bg {
+	background: linear-gradient(
+		94deg,
+		rgb(18, 176, 200) 21%,
+		rgb(47, 143, 202) 63%
+	);
+}
+.private-events-button-bg-active {
+	background: linear-gradient(
+		141deg,
+		rgba(240, 64, 161, 1) 12%,
+		rgb(219, 67, 199) 48%
 	);
 }
 

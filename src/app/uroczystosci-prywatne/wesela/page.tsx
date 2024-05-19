@@ -218,8 +218,8 @@ const WeddingPage = () => {
 						lineHeight: '1.6',
 					}}
 				>
-					Na Animacje Weselne Jeżdżą Nasze dziewczyny z
-					Bogatym Doświadczeniem , Pasją i dziecięcym Humorem.
+					Na Animacje Weselne Jeżdżą Nasze dziewczyny z Bogatym
+					Doświadczeniem , Pasją i dziecięcym Humorem.
 				</p>
 				<div className='relative'>
 					<Image

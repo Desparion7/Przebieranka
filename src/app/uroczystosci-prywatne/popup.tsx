@@ -17,6 +17,11 @@ const packagesInfo = [
 		packageDescription:
 			'Pakiet VIP to Personalne zaproszenie Wybranej PATRYCJI na Państwa Imprezę Lub wybranie innego ulubionego Animatora nawet w bardzo oblegane i rozchwytywane terminy. Wybierając Pakiet Vip otrzymują Państwo gwarancję obecności wybranej Osoby oraz niespodziankę od Animatora specjalnie dla dzieci.',
 	},
+	{
+		packageName: '1 Animator',
+		packageDescription:
+			'Pakiet 1 Animator to jak nazwa wskazuje wynajęcie jednego animatora za podaną stawkę godzinową. W danej cenie jest 1 atrakcja do wyboru z podanych na stronie ',
+	},
 ];
 
 type PackagePopupType = {

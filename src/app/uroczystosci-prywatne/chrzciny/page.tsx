@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import PackagePopup from '../popup';
+import Link from 'next/link';
 
 const ChristeningPage = () => {
 	const [activePackage, setActivePackage] = useState<string | null>(null);
@@ -64,7 +65,12 @@ const ChristeningPage = () => {
 							lineHeight: '1.6',
 						}}
 					>
-						Opis dla chrzcin
+						Oferta zawiera podstawowe gry i Zabawy i skierowana jest
+						dla zróżnicowanej grupy wiekowej . Oferta idealnie
+						nadaje się również dla małej grupy dzieci z użyciem
+						wielu ciekawych gadżetów i sprzętu Animacyjnego takiego
+						jak chusta, tunel, kulki, piłki,lina, hulahopy, rurki
+						konstrukcyjne.
 					</p>
 				</div>
 			</div>
@@ -72,7 +78,7 @@ const ChristeningPage = () => {
 				<button
 					className='relative cursor-pointer hover:scale-105 transition-all duration-300  flex justify-center items-center'
 					onClick={() => {
-						setActivePackage('Pakiet Solo');
+						setActivePackage('1 Animator');
 					}}
 				>
 					<Image
@@ -83,24 +89,7 @@ const ChristeningPage = () => {
 						className='w-[32rem]'
 					/>
 					<p className='absolute translate-y-[-0.4rem] xl:translate-y-[-0.6rem] text-center w-full uppercase text-white text-md custom450:text-2xl sm:text-lg xl:text-3xl font-semibold'>
-						Rodzaj pakietu
-					</p>
-				</button>
-				<button
-					className='relative cursor-pointer hover:scale-105 transition-all duration-300  flex justify-center items-center'
-					onClick={() => {
-						setActivePackage('Pakiet Duo');
-					}}
-				>
-					<Image
-						src='/button2.png'
-						width={1035}
-						height={340}
-						alt='button'
-						className='w-[32rem]'
-					/>
-					<p className='absolute translate-y-[-0.3rem] xl:translate-y-[-0.6rem] text-center w-full uppercase text-white text-lg custom450:text-2xl sm:text-lg xl:text-3xl font-semibold'>
-						Rodzaj pakietu
+						1 Animator - 230zł/h
 					</p>
 				</button>
 				<Image
@@ -112,6 +101,51 @@ const ChristeningPage = () => {
 					className='absolute z-[-2] top-[-4rem]  w-[10rem] sm:w-[24rem]'
 				/>
 			</div>
+			<div className='flex justify-center items-center flex-col'>
+				<p
+					className='text-center text-xl  lg:text-4xl font-semibold lg:w-[60%]'
+					style={{
+						lineHeight: '1.6',
+					}}
+				>
+					Na każdą godzinę przypada 1 darmowa atrakcja z podanych
+					poniżej:
+				</p>
+			</div>
+			<div className='flex flex-col justify-center items-center mx-3'>
+				<div className='flex flex-col xl:flex-row justify-center mt-10'>
+					<Image
+						src='/uroczystości prywatne/zestaw-atrakcji.jpg'
+						alt=''
+						width={589}
+						height={154}
+						priority
+						className='w-[40rem]'
+					/>
+					<Image
+						src='/uroczystości prywatne/zestaw-atrakcji2.jpg'
+						alt=''
+						width={589}
+						height={154}
+						priority
+						className='w-[40rem]'
+					/>
+				</div>
+			</div>
+			<div className='flex justify-center items-center flex-col mt-6'>
+				<p className='text-center text-2xl  lg:text-5xl font-semibold lg:w-[60%] mb-5 text-yellow-400'>
+					A może jeszcze więcej atrakcji ?
+				</p>
+				<p className='text-center text-xl  lg:text-4xl font-semibold lg:w-[60%] '>
+					Dorzuć i kup cos niestandardowego
+				</p>
+				<Link href='/atrakcje' className='mt-8'>
+					<button className='lg:text-3xl bg-button-color px-6 py-3 lg:px-8 lg:py-4 rounded-3xl cursor-pointer hover:scale-105 z-[10] transition-all duration-300 border-2 border-black button-shadow'>
+						Opisy atrakcji
+					</button>
+				</Link>
+			</div>
+
 			<PackagePopup
 				setActivePackage={setActivePackage}
 				activePackage={activePackage}

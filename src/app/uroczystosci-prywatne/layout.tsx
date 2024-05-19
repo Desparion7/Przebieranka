@@ -20,9 +20,9 @@ const AtractionButton: React.FC<CustomButtonProps> = ({
 		<Link href={href}>
 			<button
 				className={cn(
-					`px-6 py-3 lg:px-8 lg:py-4 text-fourth-color lg:text-2xl font-semibold bg-button2-color border-2 border-black rounded-3xl button-shadow cursor-pointer hover:scale-105 transition-all duration-300 text-nowrap`,
+					`px-6 py-3 lg:px-8 lg:py-4 text-white lg:text-2xl font-semibold private-events-button-bg rounded-3xl button-shadow cursor-pointer hover:scale-105 transition-all duration-300 text-nowrap`,
 					{
-						'bg-fourth-color text-button2-color': active,
+						'private-events-button-bg-active text-white': active,
 					}
 				)}
 			>
