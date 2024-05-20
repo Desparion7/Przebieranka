@@ -1,7 +1,8 @@
 'use client';
 import Image from 'next/image';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import PackagePopup from '../popup';
+import AttractionsPriceList from '../_components/attractions-price-list';
 
 const WeddingPage = () => {
 	const [activePackage, setActivePackage] = useState<string | null>(null);
@@ -9,7 +10,7 @@ const WeddingPage = () => {
 		<section className='relative xl:mb-5 overflow-hidden pb-3'>
 			<div className='flex flex-col xl:flex-row xl:gap-10 justify-center items-center mt-10 lg:text-3xl 2xl:text-4xl text-center relative top-[-1rem]'>
 				<Image
-					src='/uroczystości prywatne/wesele.jpg'
+					src='/uroczystości prywatne/wesele/wesele.jpg'
 					alt='dziewczynki trzymające koszyki do sypania kwiatów na weselu'
 					width={679}
 					height={679}
@@ -18,7 +19,7 @@ const WeddingPage = () => {
 				/>
 				<div className='flex justify-center items-center'>
 					<Image
-						src='/uroczystości prywatne/pakiety-tło.png'
+						src='/uroczystości prywatne/wesele/pakiety-tło.png'
 						alt=''
 						width={585}
 						height={384}
@@ -42,7 +43,7 @@ const WeddingPage = () => {
 			</div>
 			<div className='flex justify-center items-center'>
 				<Image
-					src='/uroczystości prywatne/ramka-uroczystości.png'
+					src='/uroczystości prywatne/wesele/ramka-uroczystości.png'
 					alt=''
 					width={1527}
 					height={761}
@@ -50,7 +51,7 @@ const WeddingPage = () => {
 					className='hidden sm:block w-full h-[40rem] xl:h-[38rem] xl:w-[80%]'
 				/>
 				<Image
-					src='/uroczystości prywatne/ramka-uroczystości-mobile.png'
+					src='/uroczystości prywatne/wesele/ramka-uroczystości-mobile.png'
 					alt=''
 					width={735}
 					height={1433}
@@ -255,6 +256,7 @@ const WeddingPage = () => {
 					/>
 				</div>
 			</div>
+			<AttractionsPriceList />
 			<PackagePopup
 				setActivePackage={setActivePackage}
 				activePackage={activePackage}

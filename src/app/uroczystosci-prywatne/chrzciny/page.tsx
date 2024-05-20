@@ -10,7 +10,7 @@ const ChristeningPage = () => {
 		<section className='relative xl:mb-5 overflow-hidden pb-10'>
 			<div className='flex flex-col xl:flex-row xl:gap-10 justify-center items-center xl:mt-10 lg:text-3xl 2xl:text-4xl text-center relative top-[-1rem]'>
 				<Image
-					src='/uroczystości prywatne/chrzciny.jpg'
+					src='/uroczystości prywatne/chrzciny/chrzciny.jpg'
 					alt='małe dziecko w wiklylowym korzykiem z wiankiem na głowie i bukietem w rękach'
 					width={1000}
 					height={1000}
@@ -19,7 +19,7 @@ const ChristeningPage = () => {
 				/>
 				<div className='flex justify-center items-center'>
 					<Image
-						src='/uroczystości prywatne/pakiety-tło.png'
+						src='/uroczystości prywatne/chrzciny/pakiet-tło.png'
 						alt=''
 						width={585}
 						height={384}
@@ -43,7 +43,7 @@ const ChristeningPage = () => {
 			</div>
 			<div className='flex justify-center items-center'>
 				<Image
-					src='/uroczystości prywatne/ramka-uroczystości.png'
+					src='/uroczystości prywatne/chrzciny/ramka-uroczystości.png'
 					alt=''
 					width={1527}
 					height={761}
@@ -51,7 +51,7 @@ const ChristeningPage = () => {
 					className='hidden sm:block w-full h-[40rem] custom:h-[32rem] xl:w-[80%]'
 				/>
 				<Image
-					src='/uroczystości prywatne/ramka-uroczystości-mobile.png'
+					src='/uroczystości prywatne/chrzciny/ramka-uroczystości-mobile.png'
 					alt=''
 					width={735}
 					height={1433}
@@ -65,10 +65,10 @@ const ChristeningPage = () => {
 							lineHeight: '1.6',
 						}}
 					>
-						Oferta zawiera podstawowe gry i Zabawy i skierowana jest
+						Oferta zawiera podstawowe gry i zabawy i skierowana jest
 						dla zróżnicowanej grupy wiekowej . Oferta idealnie
 						nadaje się również dla małej grupy dzieci z użyciem
-						wielu ciekawych gadżetów i sprzętu Animacyjnego takiego
+						wielu ciekawych gadżetów i sprzętu animacyjnego takiego
 						jak chusta, tunel, kulki, piłki,lina, hulahopy, rurki
 						konstrukcyjne.
 					</p>
@@ -82,7 +82,7 @@ const ChristeningPage = () => {
 					}}
 				>
 					<Image
-						src='/button1.png'
+						src='/uroczystości prywatne/chrzciny/button.png'
 						width={1034}
 						height={340}
 						alt='button'
@@ -137,13 +137,8 @@ const ChristeningPage = () => {
 					A może jeszcze więcej atrakcji ?
 				</p>
 				<p className='text-center text-xl  lg:text-4xl font-semibold lg:w-[60%] '>
-					Dorzuć i kup cos niestandardowego
+					Dorzuć i kup coś niestandardowego
 				</p>
-				<Link href='/atrakcje' className='mt-8'>
-					<button className='lg:text-3xl bg-button-color px-6 py-3 lg:px-8 lg:py-4 rounded-3xl cursor-pointer hover:scale-105 z-[10] transition-all duration-300 border-2 border-black button-shadow'>
-						Opisy atrakcji
-					</button>
-				</Link>
 			</div>
 
 			<PackagePopup
