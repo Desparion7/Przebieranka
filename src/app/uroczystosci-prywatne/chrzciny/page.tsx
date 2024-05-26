@@ -3,15 +3,16 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import PackagePopup from '../popup';
 import Link from 'next/link';
+import AttractionsPriceList from '../_components/attractions-price-list';
 
 const ChristeningPage = () => {
 	const [activePackage, setActivePackage] = useState<string | null>(null);
 	return (
-		<section className='relative xl:mb-5 overflow-hidden pb-10'>
+		<section className='relative xl:mb-5 overflow-hidden pb-10 sm:container mx-auto'>
 			<div className='flex flex-col xl:flex-row xl:gap-10 justify-center items-center xl:mt-10 lg:text-3xl 2xl:text-4xl text-center relative top-[-1rem]'>
 				<Image
-					src='/uroczystości prywatne/chrzciny/chrzciny.jpg'
-					alt='małe dziecko w wiklylowym korzykiem z wiankiem na głowie i bukietem w rękach'
+					src='/uroczystości prywatne/chrzciny/chrzciny.png'
+					alt='małe dziecko w papierowym ksozyku z plasteliny'
 					width={1000}
 					height={1000}
 					priority
@@ -48,7 +49,7 @@ const ChristeningPage = () => {
 					width={1527}
 					height={761}
 					priority
-					className='hidden sm:block w-full h-[40rem] custom:h-[32rem] xl:w-[80%]'
+					className='hidden sm:block w-full h-[36rem] xl:w-[80%]'
 				/>
 				<Image
 					src='/uroczystości prywatne/chrzciny/ramka-uroczystości-mobile.png'
@@ -56,7 +57,7 @@ const ChristeningPage = () => {
 					width={735}
 					height={1433}
 					priority
-					className='sm:hidden w-full h-[40rem] custom:h-[32rem] xl:w-[80%]'
+					className='sm:hidden w-full h-[32rem] custom:h-[26rem] xl:w-[80%]'
 				/>
 				<div className='absolute flex w-[100%] custom450:w-[85%] lg:w-[80%] xl:w-[60%]'>
 					<p
@@ -132,15 +133,7 @@ const ChristeningPage = () => {
 					/>
 				</div>
 			</div>
-			<div className='flex justify-center items-center flex-col mt-6'>
-				<p className='text-center text-2xl  lg:text-5xl font-semibold lg:w-[60%] mb-5 text-yellow-400'>
-					A może jeszcze więcej atrakcji ?
-				</p>
-				<p className='text-center text-xl  lg:text-4xl font-semibold lg:w-[60%] '>
-					Dorzuć i kup coś niestandardowego
-				</p>
-			</div>
-
+			<AttractionsPriceList />
 			<PackagePopup
 				setActivePackage={setActivePackage}
 				activePackage={activePackage}

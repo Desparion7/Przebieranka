@@ -7,27 +7,27 @@ import AttractionsPriceList from '../_components/attractions-price-list';
 const WeddingPage = () => {
 	const [activePackage, setActivePackage] = useState<string | null>(null);
 	return (
-		<section className='relative xl:mb-5 overflow-hidden pb-3'>
+		<section className='relative xl:mb-5 overflow-hidden pb-3 sm:container mx-auto'>
 			<div className='flex flex-col xl:flex-row xl:gap-10 justify-center items-center mt-10 lg:text-3xl 2xl:text-4xl text-center relative top-[-1rem]'>
 				<Image
-					src='/uroczystości prywatne/wesele/wesele.jpg'
+					src='/uroczystości prywatne/wesele/wesela.png'
 					alt='dziewczynki trzymające koszyki do sypania kwiatów na weselu'
 					width={679}
 					height={679}
 					priority
 					className='p-2 custom:p-0 w-[16rem] sm:w-[32rem] xl:w-[36rem] rotate-[-2deg]'
 				/>
-				<div className='flex justify-center items-center'>
+				<div className='flex justify-center items-center my-[3rem] sm:my-0'>
 					<Image
 						src='/uroczystości prywatne/wesele/pakiety-tło.png'
 						alt=''
 						width={585}
 						height={384}
 						priority
-						className='z-[-1] w-full sm:w-[26rem] lg:w-[32rem] mt-5 lg:my-0'
+						className='hidden sm:inline z-[-1] w-full sm:w-[26rem] lg:w-[32rem] mt-5 lg:my-0'
 					/>
-					<div className='absolute flex justify-center w-[70%] lg:w-[330px] font-semibold'>
-						<p className='text-xl lg:text-3xl'>
+					<div className='absolute flex justify-center sm:w-[70%] lg:w-[330px] font-semibold'>
+						<p className='text-2xl lg:text-3xl mt-4 w-[65%] lg:w-full'>
 							Poznaj Nasze Pakiety Weselne
 						</p>
 					</div>
@@ -179,6 +179,9 @@ const WeddingPage = () => {
 						className='w-[40rem]'
 					/>
 				</div>
+				<p className='text-xl custom:2xl text-center font-semibold my-3'>
+					Prosimy wybrać 3 atrakcje z wymienionych powyżej.
+				</p>
 			</div>
 			<div className='relative mt-5 sm:mt-10 flex justify-center items-center'>
 				<div className='flex justify-center gap-2 items-center gradient p-2 sm:w-[80%] lg:w-[70%] xl:w-[50%] sm:rounded-2xl'>

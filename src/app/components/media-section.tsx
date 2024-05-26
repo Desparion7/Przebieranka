@@ -40,7 +40,7 @@ const MediaSection = () => {
 							rel='noopener noreferrer'
 						>
 							<motion.div
-								className='w-[3rem] sm:w-[6rem] xl:w-[8rem] cursor-pointer'
+								className='w-[3rem] sm:w-[6rem] xl:w-[8rem] cursor-poinrter'
 								whileHover={{ scale: 1.05 }}
 							>
 								<Image

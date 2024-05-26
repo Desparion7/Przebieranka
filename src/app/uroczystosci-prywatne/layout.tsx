@@ -85,9 +85,9 @@ export default function PrivateCelebrationsLayout({
 						className='absolute z-[-4] top-[0.5rem] left-0 w-[5rem] sm:w-[10rem] xl:w-[16rem]'
 					/>
 					<div className='flex justify-center items-center '>
-						<h2 className='p-2 lg:p-10 rounded-3xl uppercase font-bold text-2xl lg:text-3xl 2xl:text-4xl text-black text-center'>
+						<h1 className='p-2 lg:p-10 rounded-3xl uppercase font-bold text-2xl lg:text-3xl 2xl:text-4xl text-black text-center'>
 							{title}
-						</h2>
+						</h1>
 					</div>
 				</div>
 				<div className='px-2 lg:container mx-auto flex justify-center items-center gap-5 lg:gap-10 flex-wrap'>

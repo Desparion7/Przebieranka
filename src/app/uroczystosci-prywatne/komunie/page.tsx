@@ -6,14 +6,48 @@ import PackagePopup from '../popup';
 const CommunionPage = () => {
 	const [activePackage, setActivePackage] = useState<string | null>(null);
 	return (
-		<section className='relative xl:mb-5 overflow-hidden pb-10'>
-			<div className='flex flex-col xl:flex-row xl:gap-10 justify-center items-center xl:mt-10 lg:text-3xl 2xl:text-4xl text-center relative top-[-1rem]'>
+		<section className='flex flex-col w relative xl:mb-5 overflow-hidden pb-10'>
+			<h2 className='text-center text-3xl my-3 font-semibold'>
+				Dostępne pakiety:
+			</h2>
+			<div className='w-full flex justify-center gap-[2rem]'>
+				<div className='cursor-pointer hover:scale-105 transition-all duration-300'>
+					<Image
+						src='/uroczystości prywatne/komunie/kameralnie.png'
+						alt='dziewczyna przyjmująca pierwszą komunie'
+						width={533}
+						height={619}
+						className='p-2 w-[22rem]'
+					/>
+				</div>
+				<div className='cursor-pointer hover:scale-105 transition-all duration-300'>
+					<Image
+						src='/uroczystości prywatne/komunie/w-połączeniu.png'
+						alt='dziewczyna przyjmująca pierwszą komunie'
+						width={533}
+						height={621}
+						className='p-2 w-[22rem]'
+					/>
+				</div>
+			</div>
+			<div className='flex justify-center'>
 				<Image
-					src='/uroczystości prywatne/komunia.jpg'
-					alt='dwie dziewczynki w białych sukienkach komunijnych i bukietach w rękach'
-					width={1000}
-					height={1000}
-					priority
+					src='/uroczystości prywatne/komunie/wybór.png'
+					alt='dziewczyna przyjmująca pierwszą komunie'
+					width={858}
+					height={411}
+					className='p-2 w-[42rem]'
+				/>
+			</div>
+			<h2 className='text-center text-2xl xl:text-5xl mb-[2rem] mt-[2rem] font-semibold'>
+				Oferta Komunii - Kameralnie
+			</h2>
+			<div className='flex flex-col xl:flex-row xl:gap-10 justify-center items-center xl:mt-10 lg:text-3xl 2xl:text-4xl text-center relative top-[-1rem] sm:conatiner mx-auto'>
+				<Image
+					src='/uroczystości prywatne/komunie/komunie.png'
+					alt='dziewczyna przyjmująca pierwszą komunie'
+					width={803}
+					height={606}
 					className='p-2 custom:p-0 w-[16rem] sm:w-[32rem] xl:w-[36rem] rotate-[-2deg]'
 				/>
 				<div className='flex justify-center items-center'>
@@ -22,12 +56,11 @@ const CommunionPage = () => {
 						alt=''
 						width={585}
 						height={384}
-						priority
 						className='z-[-1] w-full sm:w-[26rem] lg:w-[32rem] my-5 lg:my-0'
 					/>
 					<div className='absolute flex justify-center w-[70%] lg:w-[330px] font-semibold'>
 						<p className='text-xl lg:text-3xl'>
-							Poznaj Nasze Pakiety na Komunie
+							Oferta dla małej grupy
 						</p>
 					</div>
 				</div>
@@ -36,8 +69,7 @@ const CommunionPage = () => {
 					alt=''
 					width={613}
 					height={566}
-					priority
-					className='absolute z-[-2] top-[2rem] left-0 w-[10rem] sm:w-[30rem]'
+					className='absolute z-[-2] top-[2rem] left-[-14rem] w-[10rem] sm:w-[30rem]'
 				/>
 			</div>
 			<div className='flex justify-center items-center'>
@@ -46,7 +78,6 @@ const CommunionPage = () => {
 					alt=''
 					width={1527}
 					height={761}
-					priority
 					className='hidden sm:block w-full h-[40rem] custom:h-[32rem] xl:w-[80%]'
 				/>
 				<Image
@@ -54,7 +85,6 @@ const CommunionPage = () => {
 					alt=''
 					width={735}
 					height={1433}
-					priority
 					className='sm:hidden w-full h-[40rem] custom:h-[32rem] xl:w-[80%]'
 				/>
 				<div className='absolute flex w-[100%] custom450:w-[85%] lg:w-[80%] xl:w-[60%]'>
@@ -108,7 +138,6 @@ const CommunionPage = () => {
 					alt=''
 					width={537}
 					height={465}
-					priority
 					className='absolute z-[-2] top-[-4rem]  w-[10rem] sm:w-[24rem]'
 				/>
 			</div>
