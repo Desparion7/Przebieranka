@@ -1,28 +1,6 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-
-const packagesInfo = [
-	{
-		packageName: 'Pakiet Solo',
-		packageDescription:
-			'Pakiet Solo zawiera 1 animatora który poprowadzi wszelkie zabawy dla dzieci. Pakiet solo jest pakietem podstawowym przystosowanym idealnie dla każdej grupy wiekowej dzieci oraz na każdy teren. Animator zorganizuje szalone zabawy, zatańczy z dziećmi na Parkiecie a nawet zaciekawi rozmową i przygotuje z dziećmi Niespodziankę dla Pary Młodej.',
-	},
-	{
-		packageName: 'Pakiet Duo',
-		packageDescription:
-			'Pakiet Duo Zawiera Animatora prowadzącego i Pomocnika. Ten Pakiet idealnie sprawdza się dla dużej grupy dzieci lub kiedy jest ogromna rozbieżność wiekowa w grupie. Równie fantastycznie w Pakiecie DUO sprawdza się Maskotka gdyż pomocnik przebiera się za Postać z Bajki a Animator poprowadzi Zabawy z Maskotką.',
-	},
-	{
-		packageName: 'Pakiet VIP',
-		packageDescription:
-			'Pakiet VIP to Personalne zaproszenie Wybranej PATRYCJI na Państwa Imprezę Lub wybranie innego ulubionego Animatora nawet w bardzo oblegane i rozchwytywane terminy. Wybierając Pakiet Vip otrzymują Państwo gwarancję obecności wybranej Osoby oraz niespodziankę od Animatora specjalnie dla dzieci.',
-	},
-	{
-		packageName: '1 Animator',
-		packageDescription:
-			'Pakiet 1 Animator to jak nazwa wskazuje wynajęcie jednego animatora za podaną stawkę godzinową. W danej cenie jest 1 atrakcja do wyboru z podanych na stronie ',
-	},
-];
+import { packagesInfo } from '@/lib/packt-description';
 
 type PackagePopupType = {
 	setActivePackage: React.Dispatch<React.SetStateAction<string | null>>;

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import PackagePopup from '../popup';
 import AttractionsPriceList from '../_components/attractions-price-list';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 const WeddingPage = () => {
 	const [activePackage, setActivePackage] = useState<string | null>(null);
@@ -88,8 +89,11 @@ const WeddingPage = () => {
 						alt='button'
 						className='w-[32rem]'
 					/>
-					<p className='absolute translate-y-[-0.4rem] xl:translate-y-[-0.6rem] text-center w-full uppercase text-white text-md custom450:text-2xl sm:text-lg xl:text-3xl font-semibold'>
+					<p className='flex justify-center gap-2 absolute translate-y-[-0.4rem] xl:translate-y-[-0.6rem] text-center w-full uppercase text-white text-md custom450:text-2xl sm:text-lg xl:text-2xl font-semibold'>
 						Pakiet solo - 3H 750zł{' '}
+						<span className='flex items-center'>
+							<FaArrowRightLong />
+						</span>
 					</p>
 				</button>
 				<button
@@ -105,8 +109,11 @@ const WeddingPage = () => {
 						alt='button'
 						className='w-[32rem]'
 					/>
-					<p className='absolute translate-y-[-0.3rem] xl:translate-y-[-0.6rem] text-center w-full uppercase text-white text-lg custom450:text-2xl sm:text-lg xl:text-3xl font-semibold'>
+					<p className='flex justify-center gap-2 absolute translate-y-[-0.3rem] xl:translate-y-[-0.6rem] text-center w-full uppercase text-white text-lg custom450:text-2xl sm:text-lg xl:text-2xl font-semibold'>
 						Pakiet duo - 3H 900zł
+						<span className='flex items-center'>
+							<FaArrowRightLong />
+						</span>
 					</p>
 				</button>
 				<Image
@@ -141,9 +148,11 @@ const WeddingPage = () => {
 						alt='button'
 						className='w-[32rem]'
 					/>
-					<p className='absolute translate-y-[-0.5rem] xl:translate-y-[-0.6rem] text-center w-full uppercase text-white text-md custom450:text-2xl sm:text-lg xl:text-3xl font-semibold mx-4 leading-5'>
+					<p className='absolute translate-y-[-0.5rem] xl:translate-y-[-0.6rem] text-center w-full uppercase text-white text-md custom450:text-2xl sm:text-lg xl:text-2xl font-semibold mx-4 leading-5'>
 						Pakiet VIP to + 100zł do
-						<span className='block'>wybranego pakietu </span>
+						<span className='flex justify-center items-center gap-2'>
+							wybranego pakietu <FaArrowRightLong />{' '}
+						</span>
 					</p>
 				</button>
 			</div>

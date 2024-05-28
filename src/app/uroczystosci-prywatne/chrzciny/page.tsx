@@ -2,30 +2,30 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import PackagePopup from '../popup';
-import Link from 'next/link';
+import { FaArrowRightLong } from "react-icons/fa6";
 import AttractionsPriceList from '../_components/attractions-price-list';
 
 const ChristeningPage = () => {
 	const [activePackage, setActivePackage] = useState<string | null>(null);
 	return (
 		<section className='relative xl:mb-5 overflow-hidden pb-10 sm:container mx-auto'>
-			<div className='flex flex-col xl:flex-row xl:gap-10 justify-center items-center xl:mt-10 lg:text-3xl 2xl:text-4xl text-center relative top-[-1rem]'>
+			<div className='flex flex-col xl:flex-row xl:gap-10 justify-center items-center mt-10 lg:text-3xl 2xl:text-4xl text-center relative top-[-1rem]'>
 				<Image
 					src='/uroczystości prywatne/chrzciny/chrzciny.png'
-					alt='małe dziecko w papierowym ksozyku z plasteliny'
-					width={1000}
-					height={1000}
+					alt='małe dziecko w papierowym koszyku z plasteliny'
+					width={833}
+					height={639}
 					priority
 					className='p-2 custom:p-0 w-[16rem] sm:w-[32rem] xl:w-[36rem] rotate-[-2deg]'
 				/>
-				<div className='flex justify-center items-center'>
+				<div className='flex justify-center items-center my-[3rem] sm:my-0'>
 					<Image
 						src='/uroczystości prywatne/chrzciny/pakiet-tło.png'
 						alt=''
 						width={585}
 						height={384}
 						priority
-						className='z-[-1] w-full sm:w-[26rem] lg:w-[32rem] my-5 lg:my-0'
+						className='hidden sm:inline z-[-1] w-full sm:w-[26rem] lg:w-[32rem] my-5 lg:my-0'
 					/>
 					<div className='absolute flex justify-center w-[70%] lg:w-[330px] font-semibold'>
 						<p className='text-xl lg:text-3xl'>
@@ -70,7 +70,7 @@ const ChristeningPage = () => {
 						dla zróżnicowanej grupy wiekowej . Oferta idealnie
 						nadaje się również dla małej grupy dzieci z użyciem
 						wielu ciekawych gadżetów i sprzętu animacyjnego takiego
-						jak chusta, tunel, kulki, piłki,lina, hulahopy, rurki
+						jak chusta, tunel, kulki, piłki, lina, hulahopy, rurki
 						konstrukcyjne.
 					</p>
 				</div>
@@ -79,7 +79,7 @@ const ChristeningPage = () => {
 				<button
 					className='relative cursor-pointer hover:scale-105 transition-all duration-300  flex justify-center items-center'
 					onClick={() => {
-						setActivePackage('1 Animator');
+						setActivePackage('1 Animator chrzciny');
 					}}
 				>
 					<Image
@@ -89,8 +89,11 @@ const ChristeningPage = () => {
 						alt='button'
 						className='w-[32rem]'
 					/>
-					<p className='absolute translate-y-[-0.4rem] xl:translate-y-[-0.6rem] text-center w-full uppercase text-white text-md custom450:text-2xl sm:text-lg xl:text-3xl font-semibold'>
+					<p className='absolute translate-y-[-0.4rem] xl:translate-y-[-0.6rem] text-center w-full uppercase text-white text-lg custom450:text-2xl sm:text-lg xl:text-3xl font-semibold flex justify-center gap-3'>
 						1 Animator - 230zł/h
+						<span className='text-white text-lg sm:text-2xl flex items-center'>
+							<FaArrowRightLong />
+						</span>
 					</p>
 				</button>
 				<Image
@@ -102,7 +105,7 @@ const ChristeningPage = () => {
 					className='absolute z-[-2] top-[-4rem]  w-[10rem] sm:w-[24rem]'
 				/>
 			</div>
-			<div className='flex justify-center items-center flex-col'>
+			<div className='flex justify-center items-center flex-col mx-1'>
 				<p
 					className='text-center text-xl  lg:text-4xl font-semibold lg:w-[60%]'
 					style={{
