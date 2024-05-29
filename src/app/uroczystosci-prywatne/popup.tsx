@@ -42,11 +42,11 @@ const PackagePopup = ({
 								<div className='absolute right-0 bg-second-color border border-black top-3 h-2 w-full rotate-[45deg]' />
 							</div>
 						</button>
-						<div className='flex flex-col w-full justify-center my-3'>
+						<div className='flex flex-col w-full justify-center my-3 mt-10'>
 							<p className='uppercase text-center text-2xl'>
 								{activePackageInfo.packageName}
 							</p>
-							<p className='text-center sm:text-lg mt-2 leading-7'>
+							<p className='text-center sm:text-lg xl:text-2xl mt-2 mb-5 leading-7'>
 								{activePackageInfo.packageDescription}
 							</p>
 						</div>

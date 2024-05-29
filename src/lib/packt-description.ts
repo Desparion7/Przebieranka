@@ -15,7 +15,7 @@ export const packagesInfo = [
 			'Pakiet VIP to Personalne zaproszenie Wybranej PATRYCJI na Państwa Imprezę Lub wybranie innego ulubionego Animatora nawet w bardzo oblegane i rozchwytywane terminy. Wybierając Pakiet Vip otrzymują Państwo gwarancję obecności wybranej Osoby oraz niespodziankę od Animatora specjalnie dla dzieci.',
 	},
 	{
-		packageName: '1 Animator chrzciny',
+		packageName: '1 Animator na chrzciny',
 		packageDescription:
 			'Pakiet Zawiera 1 Animatora dla dzieci oraz wszelki sprzęt potrzebny do zabaw czy to w środku czy na zewnątrz. Możemy również poprowadzić zabawy tematyczne oraz przeprowadzić coś specjalnego dla wszystkich gości minimalny czas animacji to 2 godziny.',
 	},

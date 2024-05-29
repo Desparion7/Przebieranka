@@ -83,7 +83,7 @@ const WeddingPage = () => {
 					}}
 				>
 					<Image
-						src='/button1.png'
+						src='/uroczystości prywatne/wesele/button1.png'
 						width={1134}
 						height={340}
 						alt='button'
@@ -103,7 +103,7 @@ const WeddingPage = () => {
 					}}
 				>
 					<Image
-						src='/button2.png'
+						src='/uroczystości prywatne/wesele/button2.png'
 						width={1035}
 						height={340}
 						alt='button'
@@ -142,7 +142,7 @@ const WeddingPage = () => {
 					}}
 				>
 					<Image
-						src='/button3.png'
+						src='/uroczystości prywatne/wesele/button3.png'
 						width={500}
 						height={252}
 						alt='button'
