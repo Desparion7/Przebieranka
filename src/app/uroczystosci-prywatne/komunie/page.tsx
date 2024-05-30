@@ -14,7 +14,7 @@ const CommunionPage = () => {
 					<div className='cursor-pointer hover:scale-105 transition-all duration-300'>
 						<Image
 							src='/uroczystości prywatne/komunie/kameralnie.png'
-							alt='dziewczyna przyjmująca pierwszą komunie'
+							alt='dziewczyna przyjmująca pierwszą komunie z podpisem Kameralnie'
 							width={533}
 							height={619}
 							className='p-2 w-[22rem]'
@@ -25,7 +25,7 @@ const CommunionPage = () => {
 					<div className='cursor-pointer hover:scale-105 transition-all duration-300'>
 						<Image
 							src='/uroczystości prywatne/komunie/w-połączeniu.png'
-							alt='dziewczyna przyjmująca pierwszą komunie'
+							alt='Kilka dzieci w albach do komuni z podpisem w Połączeniu'
 							width={533}
 							height={621}
 							className='p-2 w-[22rem]'
@@ -36,7 +36,7 @@ const CommunionPage = () => {
 			<div className='flex justify-center'>
 				<Image
 					src='/uroczystości prywatne/komunie/wybór.png'
-					alt='dziewczyna przyjmująca pierwszą komunie'
+					alt='Pospis sugerujący wybranie pomiędzy dwiem dostępnymi opcjami organizacji komuni albo dla małej lub duzej grupy dzieci'
 					width={858}
 					height={411}
 					className='p-2 w-[42rem]'

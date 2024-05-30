@@ -9,7 +9,7 @@ const SingleCommunion = () => {
 	const [activePackage, setActivePackage] = useState<string | null>(null);
 	return (
 		<section className='relative xl:mb-5 overflow-hidden pb-10 sm:container mx-auto'>
-			<h2 className='text-center text-2xl xl:text-5xl my-[3rem] mx-[0.8rem] font-semibold'>
+			<h2 className='text-center text-2xl xl:text-4xl my-[3rem] mb-[4rem] mx-[0.8rem] font-semibold uppercase'>
 				Oferta Komunii - Kameralnie
 			</h2>
 			<div className='flex flex-col xl:flex-row xl:gap-10 justify-center items-center mt-10 lg:text-3xl 2xl:text-4xl text-center relative top-[-1rem]'>
@@ -108,7 +108,9 @@ const SingleCommunion = () => {
 				/>
 			</div>
 			<div className='w-full h-[5rem] my-[2rem] flex justify-center items-center text-center bg-gradient-to-r from-cyan-500 via-cyan-600 to-emerald-400'>
-				<h3 className='text-lg lg:text-3xl font-semibold'>Powyżej 3h każda kolejna godzina 20% taniej</h3>
+				<h3 className='text-lg lg:text-3xl font-semibold text-white'>
+					Powyżej 3h każda kolejna godzina 20% taniej
+				</h3>
 			</div>
 			<div className='flex justify-center items-center flex-col mx-1'>
 				<p
