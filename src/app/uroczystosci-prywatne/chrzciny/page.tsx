@@ -79,7 +79,7 @@ const ChristeningPage = () => {
 				<button
 					className='relative cursor-pointer hover:scale-105 transition-all duration-300  flex justify-center items-center'
 					onClick={() => {
-						setActivePackage('1 Animator na chrzciny');
+						setActivePackage('1 Animator (chrzciny)');
 					}}
 				>
 					<Image

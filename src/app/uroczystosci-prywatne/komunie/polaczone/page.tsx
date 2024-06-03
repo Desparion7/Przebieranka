@@ -80,7 +80,7 @@ const MoreCommunion = () => {
 				<button
 					className='relative cursor-pointer hover:scale-105 transition-all duration-300  flex justify-center items-center'
 					onClick={() => {
-						setActivePackage('1 Animator komunia');
+						setActivePackage('1 Animator (komunia)');
 					}}
 				>
 					<Image
@@ -100,7 +100,7 @@ const MoreCommunion = () => {
 				<button
 					className='relative cursor-pointer hover:scale-105 transition-all duration-300  flex justify-center items-center gap-0'
 					onClick={() => {
-						setActivePackage('1 Animator + pomocnik komunia');
+						setActivePackage('1 Animator + pomocnik (komunia)');
 					}}
 				>
 					<Image
