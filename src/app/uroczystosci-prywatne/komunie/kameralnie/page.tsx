@@ -147,7 +147,7 @@ const SingleCommunion = () => {
 					</div>
 				</div>
 			</section>
-			<AttractionsPriceList />
+			<AttractionsPriceList showMoreAttractions={true} />
 			<PackagePopup
 				setActivePackage={setActivePackage}
 				activePackage={activePackage}

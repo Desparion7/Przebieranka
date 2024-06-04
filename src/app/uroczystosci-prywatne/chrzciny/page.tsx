@@ -136,7 +136,7 @@ const ChristeningPage = () => {
 					/>
 				</div>
 			</div>
-			<AttractionsPriceList />
+			<AttractionsPriceList showMoreAttractions={true} />
 			<PackagePopup
 				setActivePackage={setActivePackage}
 				activePackage={activePackage}

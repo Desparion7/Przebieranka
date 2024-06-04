@@ -161,7 +161,7 @@ const WeddingPage = () => {
 					W Cenie Każdego PAKIETU są{' '}
 					<span>
 						<Image
-							src='/uroczystości prywatne/3.png'
+							src='/uroczystości prywatne/wesele/3.png'
 							width={204}
 							height={204}
 							alt='liczba 3'
@@ -195,7 +195,7 @@ const WeddingPage = () => {
 			<div className='relative mt-5 sm:mt-10 flex justify-center items-center'>
 				<div className='flex justify-center gap-2 items-center gradient p-2 sm:w-[80%] lg:w-[70%] xl:w-[50%] sm:rounded-2xl'>
 					<Image
-						src='/uroczystości prywatne/zegar.png'
+						src='/uroczystości prywatne/wesele/zegar.png'
 						alt=''
 						width={243}
 						height={233}
@@ -236,7 +236,7 @@ const WeddingPage = () => {
 				</p>
 				<div className='relative'>
 					<Image
-						src='/uroczystości prywatne/dziewczyny.png'
+						src='/uroczystości prywatne/wesele/dziewczyny.png'
 						alt=''
 						width={946}
 						height={730}
@@ -268,7 +268,7 @@ const WeddingPage = () => {
 					/>
 				</div>
 			</div>
-			<AttractionsPriceList />
+			<AttractionsPriceList showMoreAttractions={true} />
 			<PackagePopup
 				setActivePackage={setActivePackage}
 				activePackage={activePackage}
