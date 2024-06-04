@@ -47,4 +47,14 @@ export const packagesInfo = [
 		packageDescription:
 			'Pakiet Zawiera Animatora i MASKOTKĘ ze specjalnym cyklem Animacji Urodzinowych w Przedszkolu. Maskotkę prosimy wybrać tematycznie pod IMPREZĘ! ',
 	},
+	{
+		packageName: '165 zł za godzine (w lokalach)',
+		packageDescription:
+			'W tym pakiecie Animator organizuje zabawy z wykorzystaniem przestrzeni Lokalu oraz używając dostępnych tam ATRAKCJI pobudzając Wyobraźnię Animację poprowadzi 1 Animator Prowadzący a Oferta dostępna tylko w TYGODNIU dając możliwość większej dostępności oraz promocyjnej ceny ',
+	},
+	{
+		packageName: '230 zł za godzine (w lokalach)',
+		packageDescription:
+			'W tym pakiecie Animator organizuje zabawy z wykorzystaniem przestrzeni Lokalu oraz używając dostępnych tam ATRAKCJI pobudzając Wyobraźnię Animację poprowadzi 1 Animator Prowadzący który może zabrać ze sobą pomocnika po wcześniejszym ustaleniu liczby dzieci, atrakcji i potrzeb.',
+	},
 ];

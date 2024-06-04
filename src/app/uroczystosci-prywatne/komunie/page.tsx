@@ -6,7 +6,7 @@ import Link from 'next/link';
 const CommunionPage = () => {
 	return (
 		<section className='flex flex-col w relative xl:mb-5 overflow-hidden pb-10'>
-			<h2 className='text-center text-3xl my-3 font-semibold'>
+			<h2 className='text-center text-xl  sm:text-3xl my-3 font-semibold'>
 				Dostępne pakiety:
 			</h2>
 			<div className='w-full flex justify-center gap-[2rem]'>

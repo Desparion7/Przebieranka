@@ -9,7 +9,7 @@ const InKindergarten = () => {
 	return (
 		<>
 			<section className='relative xl:mb-5 overflow-hidden pb-2 sm:container mx-auto'>
-				<h2 className='text-center text-2xl xl:text-4xl my-[2rem] mx-[0.8rem] font-semibold uppercase'>
+				<h2 className='text-center text-2xl xl:text-4xl my-[2rem] mx-[0.8rem] font-semibold uppercase sm:mb-[5rem]'>
 					Urodzinki w Przedszkolu
 				</h2>
 				<div className='flex flex-col xl:flex-row xl:gap-10 justify-center items-center mt-10 mb-3 lg:text-3xl 2xl:text-4xl text-center relative top-[-1rem]'>
@@ -37,7 +37,7 @@ const InKindergarten = () => {
 						</div>
 					</div>
 					<Image
-						src='/kleks1.png'
+						src='/kleks2.png'
 						alt=''
 						width={613}
 						height={566}
@@ -100,7 +100,7 @@ const InKindergarten = () => {
 						</p>
 					</button>
 					<Image
-						src='/kleks4.png'
+						src='/kleks3.png'
 						alt=''
 						width={537}
 						height={465}

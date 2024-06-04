@@ -43,7 +43,7 @@ const PackagePopup = ({
 							</div>
 						</button>
 						<div className='flex flex-col w-full justify-center my-3 mt-10'>
-							<p className='uppercase text-center text-2xl'>
+							<p className='uppercase text-center text-xl sm:text-2xl'>
 								{activePackageInfo.packageName}
 							</p>
 							<p className='text-center sm:text-lg xl:text-2xl mt-2 mb-5 leading-7'>

@@ -4,10 +4,9 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 
 const BirthDayPage = () => {
-	const [activePackage, setActivePackage] = useState<string | null>(null);
 	return (
-		<section className='flex flex-col w relative xl:mb-5 overflow-hidden pb-10'>
-			<h2 className='text-center text-3xl my-3 font-semibold'>
+		<section className='flex flex-col w relative xl:mb-5 mx-2 overflow-hidden pb-10'>
+			<h2 className='text-center text-xl sm:text-3xl my-3 font-semibold'>
 				Dostępne pakiety:
 			</h2>
 			<div className='w-full flex justify-center gap-[2rem]'>
@@ -44,7 +43,7 @@ const BirthDayPage = () => {
 				/>
 			</div>
 			<div className='w-full flex justify-center gap-[2rem]'>
-				<Link href=''>
+				<Link href='/uroczystosci-prywatne/urodziny/sala-zabaw'>
 					<div className='cursor-pointer hover:scale-105 transition-all duration-300'>
 						<Image
 							src='/uroczystości prywatne/urodziny/w sali zabaw.png'
@@ -55,7 +54,7 @@ const BirthDayPage = () => {
 						/>
 					</div>
 				</Link>
-				<Link href=''>
+				<Link href='/uroczystosci-prywatne/urodziny/restauracja'>
 					<div className='cursor-pointer hover:scale-105 transition-all duration-300'>
 						<Image
 							src='/uroczystości prywatne/urodziny/w restauracji.png'

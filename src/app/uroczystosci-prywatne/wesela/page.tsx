@@ -224,7 +224,7 @@ const WeddingPage = () => {
 					className='absolute z-[-4] top-[1rem] right-0 w-[5rem] sm:w-[10rem] xl:w-[16rem]'
 				/>
 			</div>
-			<div className='sm:container mx-auto flex flex-col justify-center items-center gap-5 mt-8 lg:mt-16 xl:mt-20 p-2'>
+			<div className='sm:container mx-1 sm:mx-auto flex flex-col justify-center items-center gap-5 mt-8 lg:mt-16 xl:mt-20 p-2 '>
 				<p
 					className='text-center text-xl  lg:text-4xl font-semibold lg:w-[60%]'
 					style={{
