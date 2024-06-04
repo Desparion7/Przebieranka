@@ -29,4 +29,22 @@ export const packagesInfo = [
 		packageDescription:
 			'Pakiet Zawiera Animatora prowadzącego oraz pomocnika który pomaga w zabawach, nakręca dzieci i wystąpi w Żywej Maskotce. W tym pakiecie robimy najwięcej zabaw i gier drużynowych oram przywozimy głośnik do zabaw muzycznych. Minimalny czas animacji to 2 godziny',
 	},
+	{
+		packageName: '1 Animator weekend (urodziny)',
+		packageDescription: '',
+	},
+	{
+		packageName: '1 Animator + pomocnik weekend (urodziny)',
+		packageDescription: '',
+	},
+	{
+		packageName: '1 Animator (urodziny)',
+		packageDescription:
+			'Pakiet Zawiera 1 Animatora dla dzieci oraz wszelki sprzęt potrzebny do zabaw czy to w środku czy na zewnątrz. W promocyjnej cenie dla urodzin organizowanych od Poniedziałku do Piątku.',
+	},
+	{
+		packageName: '200 zł za godzine (przedszkole)',
+		packageDescription:
+			'Pakiet Zawiera Animatora i MASKOTKĘ ze specjalnym cyklem Animacji Urodzinowych w Przedszkolu. Maskotkę prosimy wybrać tematycznie pod IMPREZĘ! ',
+	},
 ];

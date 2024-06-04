@@ -22,7 +22,7 @@ const BirthDayPage = () => {
 						/>
 					</div>
 				</Link>
-				<Link href=''>
+				<Link href='/uroczystosci-prywatne/urodziny/przedszkole'>
 					<div className='cursor-pointer hover:scale-105 transition-all duration-300'>
 						<Image
 							src='/uroczystości prywatne/urodziny/w przedszkolu.png'
